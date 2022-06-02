@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Montserrat:wght@300&display=swap');
+
+body[data-theme="t-dark"] {
+    --bg-color: #333;
+}
+
+body[data-theme="t-light"] {
+    --bg-color: #eee;
+}
+
+body {
+    position: absolute;
+    justify-content: center;
+    background-color: var(--bg-color);
+}
+
+.div-header {
+    justify-content: right;
+    display: flex;
+    border: #f00 solid 2px;
+    width: 98vw;
+    background-color: #000;
+}
+
+.div-info {
+    margin-left: 3vw;
+    margin-top: 3vh;
+    background-color: #000;
+    width: 20%;
+}
+
+.div-info p {
+    font-family: 'Merriweather', serif;
+    font-size: 1.2em;
+    color: #eee;
+}
+
+.div-info p::first-letter {
+    font-size: 2em;
+}
+
+.div-info button {
+    padding: 5px;
+    font-size: 1.5em;
+    margin-top: 5px;
+    margin-right: 20px;
+    font-family: 'Comic Neue', cursive;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+.img-logo {
+    top: 10%;
+    width: 100%;
+}
+
+.img-header {
+    position: relative;
+    width: 80%;
+    height: 60vh;
+    object-fit: cover;
+    -webkit-mask-image: linear-gradient(to right, transparent 5%, black 100%);
+    mask-image: linear-gradient(to left, transparent 5%, black 100%);
+}
