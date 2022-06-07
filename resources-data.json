@@ -1,0 +1,110 @@
+{
+    "book_1": {
+        "id": 1,
+        "name": "As Crônicas de Nárnia",
+        "author": "",
+        "cover_path": "as-cronicas-de-narnia.jpg"       
+    },
+    "book_2": {
+        "id": 2,
+        "name": "Cinquenta Tons de Cinza",
+        "author": "",
+        "cover_path": "cinquenta-tons-de-cinza.jpg"      
+    },
+    "book_3": {
+        "id": 3,
+        "name": "Daughter Of the Deep",
+        "author": "",
+        "cover_path": "daughter-of-the-deep.jpg"        
+    },
+    "book_4": {
+        "id": 4,
+        "name": "Dracula",
+        "author": "",
+        "cover_path": "dracula.jpg"       
+    },
+    "book_5": {
+        "id": 5,
+        "name": "Frankenstein",
+        "author": "",
+        "cover_path": "frankenstein.jpg"      
+    },
+    "book_6": {
+        "id": 6,
+        "name": "It - A Coisa",
+        "author": "",
+        "cover_path": "it-a-coisa.jpg"      
+    },
+    "book_7": {
+        "id": 7,
+        "name": "Jogos Vorazes - Em Chamas",
+        "author": "",
+        "cover_path": "jogos-vorazes-em-chamas.jpg"        
+    },
+    "book_8": {
+        "id": 8,
+        "name": "Marley & Eu",
+        "author": "",
+        "cover_path": "marley-e-eu.jpg"        
+    },
+    "book_9": {
+        "id": 9,
+        "name": "SW - Filho de Dathomir",
+        "author": "",
+        "cover_path": "sw-filho-de-dathomir.jpg"       
+    },
+    "book_10": {
+        "id": 10,
+        "name": "Medo Clássico Vol.2",
+        "author": "",
+        "cover_path": "medo-classico-v2.jpg"      
+    },
+    "book_11": {
+        "id": 11,
+        "name": "Moby Dick",
+        "author": "",
+        "cover_path": "moby-dick.jpg"        
+    },
+    "book_12": {
+        "id": 12,
+        "name": "Percy Jackson - Tintan's Curse",
+        "author": "",
+        "cover_path": "percy-jackson-tintans-curse.jpg"     
+    },
+    "book_13": {
+        "id": 13,
+        "name": "O Cao dos Baskervilles",
+        "author": "",
+        "cover_path": "o-cao-dos-baskervilles.jpg"    
+    },
+    "book_14": {
+        "id": 14,
+        "name": "O Código Da Vinci",
+        "author": "",
+        "cover_path": "o-codigo-da-vinci.jpg"     
+    },
+    "book_15": {
+        "id": 15,
+        "name": "O Espião",
+        "author": "",
+        "cover_path": "o-espiao.jpg"
+    },
+    "book_16": {
+        "id": 16,
+        "name": "O Guia Definitivo do Mochileiro das Galáxias",
+        "author": "",
+        "cover_path": "o-guia-do-mochileiro.jpg"
+    },
+    "book_17": {
+        "id": 17,
+        "name": "O Pequeno Príncipe",
+        "author": "",
+        "cover_path": "o-pequeno-principe.jpg"
+    },
+    "book_18": {
+        "id": 18,
+        "name": "O Poderoso Chefão",
+        "author": "",
+        "cover_path": "o-poderoso-chefao.jpg"
+    }
+}

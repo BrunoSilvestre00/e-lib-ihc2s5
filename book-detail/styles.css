@@ -13,22 +13,27 @@ body[data-theme="t-light"] {
 body {
     position: absolute;
     justify-content: center;
+    margin: 0;
     background-color: var(--bg-color);
 }
 
-.div-header {
+.main-div {
     justify-content: right;
     display: flex;
     border: #f00 solid 2px;
-    width: 98vw;
+    height: 98vh;
     background-color: #000;
 }
 
 .div-info {
-    margin-left: 3vw;
-    margin-top: 3vh;
     background-color: #000;
-    width: 20%;
+    width: 40%;
+}
+
+.div-info h1 {
+    font-size: 3em;
+    font-family: 'Merriweather', serif;
+    color: #eee;
 }
 
 .div-info p {
@@ -52,16 +57,15 @@ body {
     border-radius: 5px;
 }
 
-.img-logo {
-    top: 10%;
-    width: 100%;
+.div-cover {
+    padding-right: 10vw;
+    padding-left: 10vw;
 }
 
 .img-header {
     position: relative;
-    width: 80%;
-    height: 60vh;
+    height: 100%;
     object-fit: cover;
-    -webkit-mask-image: linear-gradient(to right, transparent 5%, black 100%);
-    mask-image: linear-gradient(to left, transparent 5%, black 100%);
+    -webkit-mask-image: linear-gradient(to left, transparent 1%, black 50%);
+    /*mask-image: linear-gradient(to left, transparent 5%, black 100%);*/
 }
