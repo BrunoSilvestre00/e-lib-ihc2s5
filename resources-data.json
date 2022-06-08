@@ -2,109 +2,145 @@
     "book_1": {
         "id": 1,
         "name": "As Crônicas de Nárnia",
-        "author": "",
+        "author": "C. S. Lewis",
+        "year": 2005,
+        "description": "Viagens ao fim do mundo, criaturas fantásticas e batalhas épicas ente o bem e o mal - o que mais um leitor poderia querer de um livro? O livro que tem tudo isso é O leão, a feiticeira e o guarda-roupa, escrito em 1949 por Clive Staples Lewis. Mas Lewis não parou por aí, Seis outros livros vieram depois e, juntos, ficaram conhecidos como As crônicas de Nárnia. Nos últimos cinqüenta anos, As crônicas de Nárnia transcenderam o gênero da fantasia 'para se tornar parte do cânone da literatura clássica. Casa um dos sete livros é uma obra-prima, atraindo o leitor para um mundo em que a magia encontra a realidade, e o resultado é um mundo ficcional que tem fascinado gerações. Esta edição apresenta todas as sete crônicas integralmente, num único volume magnífico. Os livros são apresentados de acordo com a ordem de preferência de Lewis, cada capítulo com uma ilustração do artista original, Pauline Baynes. Enganosamente simples e direta, As crônicas de Nárnia continuam cativando os leitores com aventuras, personagens e fatos que falam a pessoas de todas as idades, mesmo cinqüenta anos após terem sido publicadas pela primeira vez.",
         "cover_path": "as-cronicas-de-narnia.jpg"       
     },
     "book_2": {
         "id": 2,
         "name": "Cinquenta Tons de Cinza",
-        "author": "",
+        "author": "E. L. James",
+        "year": 2012,
+        "description": "Quando Anastasia Steele entrevista o jovem empresário Christian Grey, descobre nele um homem atraente, brilhante e profundamente dominador. Ingênua e inocente, Ana se surpreende ao perceber que, a despeito da enigmática reserva de Grey, está desesperadamente atraída por ele. Incapaz de resistir à beleza discreta, à timidez e ao espírito independente de Ana, Grey admite que também a deseja — mas em seus próprios termos. Chocada e ao mesmo tempo seduzida pelas estranhas preferências de Grey, Ana hesita. Por trás da fachada de sucesso — os negócios multinacionais, a vasta fortuna, a amada família —, Grey é um homem atormentado por demônios do passado e consumido pela necessidade de controle. Quando eles embarcam num apaixonado e sensual caso de amor, Ana não só descobre mais sobre seus próprios desejos, como também sobre os segredos obscuros que Grey tenta manter escondidos...",
         "cover_path": "cinquenta-tons-de-cinza.jpg"      
     },
     "book_3": {
         "id": 3,
         "name": "Daughter Of the Deep",
-        "author": "",
+        "author": "Rick Riordan",
+        "year": 2021,
+        "description": "Em sua mais nova aventura, Rick Riordan constrói uma releitura apaixonante e divertida de Vinte mil léguas submarinas, clássico de Júlio Verne Depois de nos encantar e nos fazer gargalhar com as façanhas e confusões de inúmeros deuses, semideuses e pobres mortais desavisados, o autor best-seller da série Percy Jackson e os olimpianos se lança em uma nova aventura, dessa vez no fundo do mar. Inspirado em Vinte mil léguas submarinas, clássico de Júlio Verne, Riordan nos conduz em uma viagem eletrizante até as profundezas do oceano. Ainda em terra firme, conhecemos Ana Dakkar, uma das estudantes mais dedicadas da Academia Harding-Pencroft, uma escola que forma os melhores cientistas marinhos, guerreiros navais, navegadores e exploradores submarinos do mundo. Seus pais morreram em uma expedição científica dois anos antes, e a única família que lhe restou foi o irmão mais velho, Dev. A jovem e os demais alunos de sua turma se preparam para uma prova final importante e secreta. Ana tem muitas expectativas para a atividade, que vão por água abaixo quando testemunha uma terrível tragédia que mudará para sempre sua vida e a de seus amigos. Para piorar, a escola rival, o Instituto Land, está determinada a transformar os alunos da Harding-Pencroft em comida de peixe. Animador, não? Correndo contra o tempo, contra inimigos ameaçadores e contra as próprias inseguranças, Ana descobre ser herdeira de um legado ancestral lendário, e precisará liderar uma missão mortal para salvar seus companheiros e o lugar que aprendeu a chamar de lar. Com uma trama que reúne mistério, aventura, personagens apaixonantes e inúmeras referências à obra de Júlio Verne, A filha das profundezas é uma história imperdível sobre família, amizade e coragem, trazendo o olhar único de Rick Riordan sobre os erros e acertos daqueles que vieram antes de nós.",
         "cover_path": "daughter-of-the-deep.jpg"        
     },
     "book_4": {
         "id": 4,
         "name": "Dracula",
-        "author": "",
+        "author": "Bram Stoker",
+        "year": 2015,
+        "description": "Fonte de inúmeras adaptações para telas e palco, inspiração para músicos, escritores e artistas de todas as áreas, Drácula é um ícone incontestável e obra-máxima de Bram Stoker. De um lado o conde Drácula - o mais famoso vampiro da literatura - e sua legião crescente de mortos-vivos. De outro, um grupo unido e decidido a caçá-lo: Jonathan e Mina Harker, o médico holandês Van Helsing e seus amigos. Romance epistolar ágil e bem-construído, esse livro enredará também você nessa dramática corrida contra o tempo. Essa edição traz o texto integral de Bram Stoker, centenas de notas, apresentação e cronologia de vida e obra do autor, tudo isso no padrão de qualidade dos Clássicos Zahar. A versão impressa apresenta capa dura e acabamento de luxo",
         "cover_path": "dracula.jpg"       
     },
     "book_5": {
         "id": 5,
         "name": "Frankenstein",
-        "author": "",
+        "author": "Mary Shelley",
+        "year": 1997,
+        "description": "Mary Shelley (1797-1851) escreveu Frankenstein para participar de um concurso de histórias de terror realizado na intimidade do castelo de Lord Byron. Mesmo competindo com grandes gênios da literatura universal, acabou redigindo esta que é uma das mais impressionantes histórias de horror de todos os tempos. A história do dr. Victor Frankenstein e da monstruosa criatura por ele concebida vem fascinando gerações desde que foi publicada há mais de cem anos. Brilhante história de horror, escrita com fervor quase alucinatório, Frankenstein representa um dos mais estranhos florescimentos da imaginação romântica.",
         "cover_path": "frankenstein.jpg"      
     },
     "book_6": {
         "id": 6,
         "name": "It - A Coisa",
-        "author": "",
+        "author": "Stephen King",
+        "year": 2014,
+        "description": "Durante as férias escolares de 1958, em Derry, pacata cidadezinha do Maine, Bill, Richie, Stan, Mike, Eddie, Ben e Beverly aprenderam o real sentido da amizade, do amor, da confiança e... do medo. O mais profundo e tenebroso medo. Naquele verão, eles enfrentaram pela primeira vez a Coisa, um ser sobrenatural e maligno que deixou terríveis marcas de sangue em Derry. Quase trinta anos depois, os amigos voltam a se encontrar. Uma nova onda de terror tomou a pequena cidade. Mike Hanlon, o único que permanece em Derry, dá o sinal. Precisam unir forças novamente. A Coisa volta a atacar e eles devem cumprir a promessa selada com sangue que fizeram quando crianças. Só eles têm a chave do enigma. Só eles sabem o que se esconde nas entranhas de Derry. O tempo é curto, mas somente eles podem vencer a Coisa. Em It - A Coisa, clássico de Stephen King em nova edição, os amigos irão até o fim, mesmo que isso signifique ultrapassar os próprios limites.",
         "cover_path": "it-a-coisa.jpg"      
     },
     "book_7": {
         "id": 7,
         "name": "Jogos Vorazes - Em Chamas",
-        "author": "",
+        "author": "Suzanne Collins",
+        "year": 2021,
+        "description": "Depois da improvável e inusitada vitória de Katniss Everdeen e Peeta Mellark nos últimos Jogos Vorazes, algo parece ter mudado para sempre em Panem. Aqui e ali, distúrbios e agitações nos distritos dão sinais de que uma revolta é iminente. Katniss e Peeta, representantes do paupérrimo Distrito 12, não apenas venceram os Jogos, mas ridicularizaram o governo e conseguiram fazer todos – incluindo o próprio Peeta – acreditarem que são um casal apaixonado. A confusão na cabeça de Katniss não é menor do que a das ruas. Em meio ao turbilhão, ela pensa cada vez mais em seu melhor amigo, o jovem caçador Gale, mas é obrigada a fingir que o romance com Peeta é real. Já o governo parece especialmente preocupado com a influência que os dois adolescente vitoriosos – transformados em verdadeiros ídolos nacionais – podem ter na população. Por isso, existem planos especiais para mantê-los sob controle, mesmo que isso signifique forçá-los a lutar novamente. Apenas um sobrevive. Best-seller da Veja, a trilogia Jogos Vorazes foi adaptada para o cinema e estrelada por Jennifer Lawrence.",
         "cover_path": "jogos-vorazes-em-chamas.jpg"        
     },
     "book_8": {
         "id": 8,
         "name": "Marley & Eu",
-        "author": "",
+        "author": "John Grogan",
+        "year": 2020,
+        "description": "John e Jenny eram jovens apaixonados com uma vida perfeita quando resolveram adotar um cãozinho. Após visitar uma fazenda, escolheram Marley, encantados com a doçura da mãe do filhote. Porém, depois de conhecerem o pai da ninhada, um cão rabugento, mal-encarado e bagunceiro, John e Jenny torceram para que Marley tivesse puxado à mãe, mas as preces deles definitivamente não foram atendidas. Daquele dia em diante, a vida da família Grogan nunca mais foi a mesma — ainda bem! Marley se mostrou um cão único, que arrebentava portas quando ouvia trovões, atravessava paredes de compensado, babava nas visitas, roubava roupas do varal dos vizinhos e comia tudo que via pela frente, incluindo forros de sofás e joias. John e Jenny tentaram controlá-lo, é claro, mas as escolas de adestramento não deram em nada — Marley chegou até a ser expulso de uma por ridicularizar a treinadora. Só que o coração do cachorro era puro, e seu amor e lealdade, infinitos. Dividindo as alegrias e os sofrimentos ao lado de John e Jenny, inclusive quando os bebês do casal enfim chegaram, ele apoiou e acompanhou sua família humana nas situações mais difíceis. Como todo bom cão, Marley conquistou corações com seu espírito brincalhão e levado e, acima de tudo, mudou para sempre a vida de todos aqueles que encontrou.",
         "cover_path": "marley-e-eu.jpg"        
     },
     "book_9": {
         "id": 9,
         "name": "SW - Filho de Dathomir",
-        "author": "",
+        "author": "Darth Maul",
+        "year": 2017,
+        "description": "Ele foi cortado ao meio por Obi-Wan Kenobi e rejeitado por seu antigo mestre Sith, Darth Sidious, mas isso não foi suficiente para derrotar Darth Maul. Na verdade, só serviu para deixá-lo irado o suficiente para tomar de assalto a galáxia inteira. Após formar a Sombra Coletiva ― uma organização criminosa composta pelos Hutts, o Sol Negro, os mandalorianos e os temíveis Irmãos da Noite ―, Maul reúne suas tropas para travar uma sangrenta guerra contra Sidious e seus generais, sem jamais deixar de lado sua batalha contra os Jedi!",
         "cover_path": "sw-filho-de-dathomir.jpg"       
     },
     "book_10": {
         "id": 10,
         "name": "Medo Clássico Vol.2",
-        "author": "",
+        "author": "H. P. Lovecraft",
+        "year": 2021,
+        "description": "A DarkSide® Books dá sequência a publicação de um dos autores mais influentes da literatura de terror, em contos apavorantes, que mostram toda a abrangência da força de escrita de H.P. Lovecraft. Stephen King, Neil Gaiman, Caitlín R. Kiernan, Ridley Scott, Sam Raimi, Alan Moore e muitos outros criadores têm as marcas do inventor dos mythos cthulhianos em suas obras.Hoje em dia é difícil imaginar a cultura pop sem a presença de Howard Phillips Lovecraft. Autor do mesmo quilate dos grandes nomes do horror, Lovecraft passou a vida desenvolvendo seres e universos fantásticos. Assim como Tolkien, ele criou sua própria mitologia com deuses e entidades ancestrais.Seu terror cósmico, onde o bem e o mal independem de carma ou moralidade, influenciou muitos livros, filmes, bandas e games: de Uma Noite Alucinante a Re-Animator, de Alien aos zumbis de George Romero, das músicas do Metallica às capas do Iron Maiden, das partidas de Alone in the Dark ao Asilo Arkham, de Batman... os exemplos de adaptações e inspirações são incontáveis, a ponto de “lovecraftiano” ser considerado um estilo.Esta edição da DarkSide® Books traz além dos contos horripilantes em que se encontram as diversas facetas do horror cósmico, o vigoroso ensaio “O Horror Sobrenatural na Literatura”, em que Lovecraft destrincha as origens da escrita de terror.Os textos vêm acompanhados das espantosas artes do mestre estadunidense Virgil Finlay, um dos grandes ilustradores do universo lovecraftiano e importante artista das revistas pulp dos Estados Unidos, que publicou na época de ouro de publicações como Weird Tales e Amazing Stories. E sabendo que seu leitor é exigente e merece o melhor,  abrimos a edição com o texto inédito de W. Scott Poole, especialista em horror e autor da macabra biografia de Lovecraft, In the Mountains of Madness, em que Poole relaciona os contos do livro com a obra lovecraftiana de maneira original e reveladora.Um escritor tão universal como Lovecraft não caberia numa única edição. Por isso, a DarkSide® Books atendeu ao chamado de Cthulhu e preparou duas opções em capa dura: Miskatonic Edition e Cosmic Edition.O texto das duas edições de H.P. Lovecraft: Medo Clássico v. 2 é o mesmo, mas cada uma reflete a personalidade de seus peculiares leitores. A Miskatonic Edition é uma obra-prima para sua biblioteca, inspirada na universidade que o escritor criou em seus contos. Já a Cosmic Edition é uma viagem aos recantos mais alucinados da mente de Lovecraft, mesclando loucura e realidade.",
         "cover_path": "medo-classico-v2.jpg"      
     },
     "book_11": {
         "id": 11,
         "name": "Moby Dick",
-        "author": "",
+        "author": "Herman Melville",
+        "year": 2019,
+        "description": "Lançado em 1851, Moby Dick, ou A baleia, de Herman Melville (1819-1891), se tornou um dos livros de aventura mais emblemáticos da literatura universal. A história do capitão Ahab, em busca de vingança contra o terrível cachalote que amputara sua perna, entrou definitivamente para a cultura popular, inspirando, entre outras criações, pinturas de Jackson Pollock e Frank Stella, adaptações de Orson Welles para o rádio e o teatro, um filme de John Huston, e até um blues do Led Zeppelin. Mas uma leitura atenta da obra-prima de Melville pode revelar as camadas mais profundas do texto, que deram ao autor o posto de maior prosador norte-americano do século XIX. Entremeados à narrativa vão se sobressaindo múltiplos elementos: referências bíblicas que ecoam críticas da época ao nascente imperialismo dos Estados Unidos; a questão racial, personificada na figura dos três arpoadores, um negro, um índio e um nativo polinésio; a análise da extração do óleo dos cachalotes como atividade econômica industrial, incluindo uma discussão sobre a sustentabilidade da pesca das baleias; as tensões sociais, que aparecem nas relações entre superiores e subordinados e na possibilidade sempre presente de um motim - tudo isso encenado no palco shakespeariano do convés de um baleeiro que parte de Nantucket, em Massachusetts, até chegar ao Pacífico, onde ocorre o enfrentamento final entre o obsessivo capitão Ahab e a monstruosa baleia branca. Além de trazer ensaios de Evert Duyckinck, D. H. Lawrence e F. O. Matthiessen sobre Moby Dick, que delineiam a recepção crítica do livro, esta nova edição apresenta um prefácio de Albert Camus, inédito em nosso país, e um ensaio de Bruno Gambarotto, um dos maiores especialistas brasileiros na obra de Melville.",
         "cover_path": "moby-dick.jpg"        
     },
     "book_12": {
         "id": 12,
         "name": "Percy Jackson - Tintan's Curse",
-        "author": "",
+        "author": "Rick Riordan",
+        "year": 2009,
+        "description": "Nesse terceiro livro da série, um chamado do amigo Grover deixa Percy a postos para mais uma missão: dois novos meios-sangues foram encontrados, e sua ascendência ainda é desconhecida. Como sempre, Percy sabe que precisará contar com o poder de seus aliados heróis, com sua leal espada Contracorrente... e com uma caroninha da mãe. O que eles ainda não sabem é que os jovens descobertos não são os únicos em perigo: Cronos, o Senhor dos Titãs, arquitetou um de seus planos mais traiçoeiros, e os meios-sangues estarão frente a frente com o maior desafio de suas vidas: A Maldição do Titã.",
         "cover_path": "percy-jackson-tintans-curse.jpg"     
     },
     "book_13": {
         "id": 13,
         "name": "O Cao dos Baskervilles",
-        "author": "",
+        "author": "Sir Arthur Conan Doyle",
+        "year": 2012,
+        "description": "O detetive Sherlock Holmes e seu fiel amigo dr. Watson retornam em mais uma série de mistérios, assassinatos, pistas e perseguições em 'O cão dos Baskerville'. O mistério a ser solucionado envolve a morte de Sir Charles Baskerville e um cão fantasmagórico que aterroriza os moradores da mansão Baskerville Hall. Esta obra traz o texto integral.",
         "cover_path": "o-cao-dos-baskervilles.jpg"    
     },
     "book_14": {
         "id": 14,
         "name": "O Código Da Vinci",
-        "author": "",
+        "author": "Dan Brown",
+        "year": 2021,
+        "description": "Um assassinato no Museu do Louvre traz à tona uma sinistra conspiração para revelar um segredo que foi protegido por uma sociedade secreta desde os tempos de Jesus Cristo. A vítima é o curador do museu, Jacques Saunière, um dos líderes dessa fraternidade, o Priorado de Sião, que já teve como membros Leonardo da Vinci, Victor Hugo e Isaac Newton. Pouco antes de morrer, ele consegue deixar uma mensagem cifrada na cena do crime. Apenas sua neta, a criptógrafa Sophie Neveu, e Robert Langdon, um famoso simbologista de Harvard, podem desvendá-la. Os dois se transformam em suspeitos e em detetives enquanto percorrem as ruas de Paris e de Londres tentando decifrar um intricado quebra-cabeça que pode lhes revelar um segredo milenar que envolve a Igreja Católica. Poucos passos à frente das autoridades e do assassino, Sophie e Robert buscam pistas nas obras de Da Vinci e se debruçam sobre alguns dos maiores mistérios da cultura ocidental – da natureza do sorriso da Mona Lisa ao significado do Santo Graal. Mesclando com perfeição suspense, informações sobre obras de arte, documentos e rituais secretos, Dan Brown consagrou-se como um dos autores mais brilhantes da atualidade.",
         "cover_path": "o-codigo-da-vinci.jpg"     
     },
     "book_15": {
         "id": 15,
         "name": "O Espião",
-        "author": "",
+        "author": "Clive Cussler",
+        "year": 2012,
+        "description": "É 1908 e acumulam-se tensões internacionais enquanto o mundo caminha inexoravelmente para a guerra. Após um talentoso projetista de canhões de couraçados morrer em um aparente suicídio, sua filha, angustiada, recorre à lendária Agência Van Dorn para limpar o nome do pai. Van Dorn põe seu principal investigador no caso, Isaac Bell, que logo percebe que as pistas apontam não para suicídio, mas para assassinato. E quando se seguem outras mortes mais suspeitas, fica evidente que alguém — um ardiloso espião — está orquestrando a eliminação das mentes tecnológicas mais brilhantes... Mas isso é apenas o começo.",
         "cover_path": "o-espiao.jpg"
     },
     "book_16": {
         "id": 16,
         "name": "O Guia Definitivo do Mochileiro das Galáxias",
-        "author": "",
+        "author": "Douglas Adams",
+        "year": 2016,
+        "description": "Pela primeira vez, reunimos em um único volume os cinco livros da cultuada série O Mochileiro das Galáxias, de Douglas Adams. Com mais de 15 milhões de exemplares vendidos, a saga do britânico esquisitão Arthur Dent pela Galáxia conquistou leitores do mundo inteiro. O humor ácido e as tramas surreais de Douglas Adams se tornaram ícones de uma geração e seguem fascinando – e divertindo – leitores de todas as idades. Pegue sua toalha, embarque nessa aventura improvável e, é claro, não entre em pânico!",
         "cover_path": "o-guia-do-mochileiro.jpg"
     },
     "book_17": {
         "id": 17,
         "name": "O Pequeno Príncipe",
-        "author": "",
+        "author": "Antoine de Saint-Exupéry",
+        "year": 2018,
+        "description": "Nesta clássica história que marcou gerações de leitores em todo o mundo, um piloto cai com seu avião no deserto do Saara e encontra um pequeno príncipe, que o leva a uma jornada filosófica e poética através de planetas que encerram a solidão humana. A edição conta com a clássica tradução do poeta imortal dom Marcos Barbosa, e é a versão mais consagrada da obra, publicada no Brasil desde 1952.",
         "cover_path": "o-pequeno-principe.jpg"
     },
     "book_18": {
         "id": 18,
         "name": "O Poderoso Chefão",
-        "author": "",
+        "author": "Mario Puzo",
+        "year": 1984,
+        "description": "Clássico que deu origem à premiada trilogia dirigida por Francis Ford Coppola.Publicado em 1969, a saga O poderoso chefão é, até hoje, a mais perfeita reconstituição das famílias mafiosas de Nova York. O carismático Don Vito Corleone é o chefão de uma delas. Apesar de implacável, Don Vito é, essencialmente, um homem justo. Padrinho benevolente, nada recusa aos seus afilhados: conselho, dinheiro, vingança e até mesmo a morte de alguém. Em troca, o poderoso chefão pede apenas o respeito e a amizade de seus protegidos. Assim, todas as suas vontades se tornam realidade. Porém, ninguém pode vencer o tempo. Quando seus inimigos atacam juntos e tudo que sua família significa estiver por um fio, o velho Corleone terá de escolher, entre seus filhos, um sucessor à altura. E Mario Puzo constrói de maneira hábil um mundo de intrigas, decisões cruéis e honra, num legado de tradição e sangue.O fato é que O poderoso chefão se tornou um fenômeno instantâneo: dois anos antes de seu lançamento, os direitos de adaptação para o cinema já tinham sido vendidos - e quando finalmente chegou às livrarias, em 1969, permaneceu mais de um ano na lista dos mais vendidos, gerando, três anos depois, um verdadeiro clássico nas mãos de Francis Ford Coppola, cineasta responsável pela adaptação.Ler a obra de Puzo, aliás, é perceber a complexa tapeçaria que viria a enriquecer o filme, desde o vocabulário característico dos personagens até eventos específicos que (excluídos do longa) ajudam a torná-los ainda mais fascinantes.E, com sua força, O poderoso chefão finalmente salvou seu autor, que se tornou um dos mais conhecidos do mundo.",
         "cover_path": "o-poderoso-chefao.jpg"
     }
 }
