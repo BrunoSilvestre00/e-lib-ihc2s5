@@ -8,7 +8,7 @@
     <link rel="stylesheet" href= "{{ url_for('static',filename='styles/book_detail.css') }}">
     <script src="{{ url_for('static',filename='scripts/book_detail.js') }}"></script>
 </head>
-<body data-theme="t-dark">
+<body data-theme="t-dark" style="--cover-color: {{ book.cover_color }}aa;">
     <div class="main-div">
         <div class="div-info">
             <h1>

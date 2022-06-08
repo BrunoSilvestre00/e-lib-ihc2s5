@@ -29,7 +29,8 @@
         "author": "Bram Stoker",
         "year": 2015,
         "description": "Fonte de inúmeras adaptações para telas e palco, inspiração para músicos, escritores e artistas de todas as áreas, Drácula é um ícone incontestável e obra-máxima de Bram Stoker. De um lado o conde Drácula - o mais famoso vampiro da literatura - e sua legião crescente de mortos-vivos. De outro, um grupo unido e decidido a caçá-lo: Jonathan e Mina Harker, o médico holandês Van Helsing e seus amigos. Romance epistolar ágil e bem-construído, esse livro enredará também você nessa dramática corrida contra o tempo.",
-        "cover_path": "dracula.jpg"       
+        "cover_path": "dracula.jpg",
+        "cover_color": "#7d1317"
     },
     "book_5": {
         "id": 5,
@@ -37,7 +38,8 @@
         "author": "Mary Shelley",
         "year": 1997,
         "description": "Mary Shelley (1797-1851) escreveu Frankenstein para participar de um concurso de histórias de terror realizado na intimidade do castelo de Lord Byron. Mesmo competindo com grandes gênios da literatura universal, acabou redigindo esta que é uma das mais impressionantes histórias de horror de todos os tempos. A história do dr. Victor Frankenstein e da monstruosa criatura por ele concebida vem fascinando gerações desde que foi publicada há mais de cem anos. Brilhante história de horror, escrita com fervor quase alucinatório, Frankenstein representa um dos mais estranhos florescimentos da imaginação romântica.",
-        "cover_path": "frankenstein.jpg"      
+        "cover_path": "frankenstein.jpg",
+        "cover_color": "#ef4c23"  
     },
     "book_6": {
         "id": 6,

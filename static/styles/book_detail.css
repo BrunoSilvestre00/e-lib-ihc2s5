@@ -8,7 +8,7 @@ body[data-theme="t-dark"] {
 }
 
 body[data-theme="t-light"] {
-    --bg-color: #eee;
+    --bg-color: #ccc;
     --txt-color: #111;
 }
 
@@ -24,14 +24,16 @@ body {
     display: flex;
     border: #f00 solid 2px;
     height: 98vh;
-    background-color: var(--bg-color);
+    background-color: var(--cover-color);
 }
 
 .div-info {
-    background-color: var(--bg-color);
+    background-color: #0000;
     font-family: 'Merriweather', serif;
+    width: 50%;
     margin-left: 5vw;
-    margin-right: 5vw;
+    padding-right: 5vw;
+    padding-left: 5vw;
 }
 
 .div-info h1 {
