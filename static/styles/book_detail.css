@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Montserrat:wght@300&display=swap');
+
+body[data-theme="t-dark"] {
+    --bg-color: #111;
+    --txt-color: #eee;
+}
+
+body[data-theme="t-light"] {
+    --bg-color: #eee;
+    --txt-color: #111;
+}
+
+body {
+    position: absolute;
+    justify-content: center;
+    margin: 0;
+    background-color: var(--bg-color);
+}
+
+.main-div {
+    justify-content: right;
+    display: flex;
+    border: #f00 solid 2px;
+    height: 98vh;
+    background-color: var(--bg-color);
+}
+
+.div-info {
+    background-color: var(--bg-color);
+    font-family: 'Merriweather', serif;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.div-info h1 {
+    text-decoration: underline;
+}
+
+.div-info h1, h2, h4, p {
+    justify-self: left;
+    color: var(--txt-color);
+}
+
+.div-info p {
+    border: double 4px #0af;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+
+.div-info p::first-letter {
+    font-size: 2em;
+}
+
+.div-info button {
+    padding: 5px;
+    font-size: 1.5em;
+    margin-top: 5px;
+    margin-right: 20px;
+    font-family: 'Comic Neue', cursive;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--txt-color);
+    color: var(--bg-color);
+}
+
+.div-cover {
+    padding-right: 10vw;
+}
+
+.img-header {
+    position: relative;
+    height: 100%;
+    object-fit: cover;
+    -webkit-mask-image: linear-gradient(to left, transparent 1%, black 40%);
+    /*mask-image: linear-gradient(to left, transparent 5%, black 100%);*/
+}
+
+.div-btns-config {
+    display: table-row;
+	position: absolute;
+	z-index: 1;
+	right: 5px;
+	top: 5px;
+	width: 70px;
+	background-color: #FFFB;
+	border-style: 5px;
+	border-radius: 5px;
+	border-color: #2f4f89;
+	text-align: center;
+	font-size: 20px;
+	padding: 5px;
+}

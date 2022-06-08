@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhe | e-Lib</title>
+    <link rel="stylesheet" href= "{{ url_for('static',filename='styles/book_detail.css') }}">
+    <script src="{{ url_for('static',filename='scripts/book_detail.js') }}"></script>
+</head>
+<body data-theme="t-dark">
+    <div class="main-div">
+        <div class="div-info">
+            <h1>
+                {{ book.title }}
+            </h1>
+            <h2>
+                {{ book.author }}
+            </h2>
+            <h4>
+                Ano da Edição: {{ book.year }}
+            </h4>
+            <p>
+               Sinopse: {{ book.description }}
+            </p>
+            <button class="btn-ler">LER</button>
+            <button class="btn-add">+ Minha Lista</button>
+        </div>
+        <div class="div-cover">
+            <img class="img-header" src="{{ url_for('static',filename='books-covers/%s' % book.cover_path) }}">
+        </div>
+    </div>
+    <div class="div-body">
+        
+    </div>
+
+    <div class="div-btns-config">
+        <button id="btn_theme" onclick="changeTheme()">tema</button><br>
+        <button id="btn_prev"><a href="/book-detail/{{ book.id-1 }}">{{ "<<" }}</a></button><br>
+        <button id="btn_prev"><a href="/book-detail/{{ book.id+1 }}">{{ ">>" }}</a></button>
+    </div>  
+</body>
+</html>
