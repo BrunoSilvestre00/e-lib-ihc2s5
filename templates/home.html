@@ -4,9 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href= "{{ url_for('static',filename='styles/home.css') }}">
     <title>Home | e-Lib</title>
 </head>
-<body>
-    
+<body  data-theme="t-dark">
+    <div class="main-header">
+        <img class="header-logo" src="{{ url_for('static',filename='logo/foo_logo.png') }}">
+        <span id="home">Home</span>
+        <span id="book_detail">Book Detail</span>
+        <span id="forum">Forum</span>
+        <div class="header-config">
+            <input id="search" placeholder="Pesquisar"/>
+            <span id="icone-lupa"></span>
+            <span id="options"></span>
+        </div>
+    </div>
 </body>
 </html>

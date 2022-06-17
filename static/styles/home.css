@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+
+body[data-theme="t-dark"] {
+    --bg-color: #111;
+    --header-color: #222;
+    --txt-color: #eee;
+}
+
+body[data-theme="t-light"] {
+    --bg-color: #ccc;
+    --txt-color: #111;
+}
+
+body {
+    position: absolute;
+    justify-content: center;
+    margin: 0;
+    background-color: var(--bg-color);
+}
+
+.main-header {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    background-color: var(--header-color);
+    font-family: 'Comic Neue', cursive;
+}
+
+.main-header img {
+    margin: 10px;
+    height: 70%;
+    width: auto;
+}
+
+.main-header span {
+    margin: 8px;
+    font-size: 25px;
+    font-weight: 1.5em;
+    color: var(--txt-color);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.main-header span:hover {
+    font-size: 28px;
+}
+
+#home:hover {
+    color: #0AF;
+}
+
+#book_detail:hover {
+    color: #0FA;
+}
+
+#forum:hover {
+    color: #FA0;
+}
+
+.header-config {
+    position: absolute;
+    right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#search {
+    border-radius: 5px;
+    font-size: 15px;
+    width: 150px;
+    height: 25px;
+}
+
+#icone-lupa {
+    width: 15px;
+    height: 15px;
+    border: 3px solid #eee;
+    border-radius: 50%;
+    position: relative;
+}
+
+#icone-lupa:after {
+    position: absolute;
+    width: 80%;
+    height: 5px;
+    background-color: #eee;
+    display: block;
+    content: "";
+    top: 50%;
+    left: 50%;
+
+    transform: rotate(45deg);
+    transform-origin: -2px 12px;
+}
+
+#options, #options::after, #options::before {
+    transform-origin: center;
+    width: 30px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #eee;
+    cursor: pointer;
+}
+
+#options {
+    margin-left: 25px;
+}
+
+#options::after {
+    position: absolute;
+    content: '';
+    transform: translateY(10px);
+}
+
+#options::before {
+    position: absolute;
+    content: '';
+    transform: translateY(-10px);
+}
