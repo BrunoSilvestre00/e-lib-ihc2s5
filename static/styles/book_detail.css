@@ -19,10 +19,6 @@ body {
     background-color: var(--bg-color);
 }
 
-#search {
-    height: 4px;
-}
-
 .main-div {
     justify-content: right;
     display: flex;
@@ -88,8 +84,8 @@ body {
 }
 
 .div-btns-config {
-    //display: table-row;
-    display: none;
+    display: table-row;
+    //display: none;
 	position: absolute;
 	z-index: 1;
 	right: 5px;

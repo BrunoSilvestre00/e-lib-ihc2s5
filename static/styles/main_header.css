@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Montserrat:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
 
 .main-header {
     position: relative;
@@ -22,14 +20,14 @@
 .main-header span {
     margin: 10px;
     font-size: 25px;
-    color: #eee;
+    color: var(--txt-color);
     transition: 0.3s;
     cursor: pointer;
 }
 
 .main-header a {
     text-decoration: none;
-    color: #eee;
+    color: var(--txt-color);
 }
 
 .main-header span:hover {
@@ -75,7 +73,7 @@
 }
 
 .header-config i {
-    color: #eee;
+    color: var(--txt-color);
     font-size: 1rem;
 }
 
@@ -84,7 +82,7 @@
     width: 30px;
     height: 5px;
     border-radius: 5px;
-    background-color: #eee;
+    background-color: var(--txt-color);
     cursor: pointer;
 }
 

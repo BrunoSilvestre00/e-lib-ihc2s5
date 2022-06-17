@@ -17,7 +17,7 @@
 </head>
 <body  data-theme="t-dark">
     <div class="main-header">
-        <img class="header-logo" src="{{ url_for('static',filename='logo/foo_logo.png') }}">
+        <img class="header-logo" src="{{ url_for('static',filename='logo/logo-icon.png') }}">
         <span><a id="home" href="/home">Home</a></span>
         <span><a id="book_detail" href="/book-detail/1">Book Detail</a></span>
         <span><a id="forum">Forum</a></span>
@@ -30,6 +30,11 @@
 
     <div class="main-div">
         <div id="carousel-home" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-home" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-home" data-slide-to="1"></li>
+                <li data-target="#carousel-home" data-slide-to="2"></li>
+            </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img class="d-block w-100" src="{{ url_for('static',filename='home-carousel/%s' % carousel_list[0]) }}" alt="First slide">
