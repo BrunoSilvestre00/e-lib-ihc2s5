@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Montserrat:wght@300&display=swap');
+
+*{
+    margin: 0;
+}
 
 body[data-theme="t-dark"] {
     --bg-color: #111;
@@ -15,109 +20,105 @@ body {
     position: absolute;
     justify-content: center;
     margin: 0;
+}
+
+.main-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: var(--bg-color);
 }
 
-.main-header {
-    position: relative;
-    top: 0;
-    left: 0;
-    height: 50px;
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    background-color: var(--header-color);
-    font-family: 'Comic Neue', cursive;
+#carousel-home {
+    margin-bottom: 30px;
 }
 
-.main-header img {
-    margin: 10px;
-    height: 70%;
+.carousel-inner > div > img {
+    -webkit-mask-image: linear-gradient(to top, transparent 1%, black 30%);
+}
+
+.book-carousel {
+    width: 90%;
+    margin-bottom: 250px;
+}
+
+#slider {
+    height: 30vh;
     width: auto;
-}
-
-.main-header span {
-    margin: 8px;
-    font-size: 25px;
-    font-weight: 1.5em;
-    color: var(--txt-color);
-    transition: 0.3s;
-    cursor: pointer;
-}
-
-.main-header span:hover {
-    font-size: 28px;
-}
-
-#home:hover {
-    color: #0AF;
-}
-
-#book_detail:hover {
-    color: #0FA;
-}
-
-#forum:hover {
-    color: #FA0;
-}
-
-.header-config {
-    position: absolute;
-    right: 10px;
+    margin: 0;
+    padding: 0;
     display: flex;
-    align-items: center;
+    background-color: #0000;
 }
 
-#search {
-    border-radius: 5px;
-    font-size: 15px;
-    width: 150px;
-    height: 25px;
+.container {
+    width: 1600px;
+    margin: 0;
 }
 
-#icone-lupa {
-    width: 15px;
-    height: 15px;
-    border: 3px solid #eee;
-    border-radius: 50%;
-    position: relative;
+.subcontainer {
+    width: 85%;
 }
 
-#icone-lupa:after {
-    position: absolute;
-    width: 80%;
-    height: 5px;
-    background-color: #eee;
-    display: block;
-    content: "";
-    top: 50%;
-    left: 50%;
-
-    transform: rotate(45deg);
-    transform-origin: -2px 12px;
+.controller {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-#options, #options::after, #options::before {
-    transform-origin: center;
-    width: 30px;
-    height: 5px;
-    border-radius: 5px;
-    background-color: #eee;
+.controller h2 {
+    color: #eee;
+}
+
+.controls i {
+    color: #eee;
+    font-size: 1rem;
+}
+
+.previous, .next {
+    padding: 2px;
+    width: 35px;
     cursor: pointer;
+    border-radius: 50%;
+    outline: none;
+    border: 3px solid #eee;
+    background-color: #0000;
+    box-shadow: 0 0 5px #bbb;
 }
 
-#options {
-    margin-left: 25px;
+.slide-img {
+    height: 330px;
+    width: auto;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
 }
 
-#options::after {
-    position: absolute;
-    content: '';
-    transform: translateY(10px);
+.slide-img:hover {
+    box-shadow: 0 0 0 200px #000a inset;
 }
 
-#options::before {
-    position: absolute;
-    content: '';
-    transform: translateY(-10px);
+.slide-img a {
+    text-decoration: none;
+    transform: scale(0);
+    transition: 0.8s;
+    font-size: 1.5rem;
+    color: #eee;
+    opacity: 0;
+}
+
+.slide-img:hover a {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.main-div p {
+    font-family: 'Merriweather', serif;
+    color: #eee;
 }

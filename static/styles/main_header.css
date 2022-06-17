@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Montserrat:wght@300&display=swap');
+
+.main-header {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: var(--header-color);
+    font-family: 'Comic Neue', cursive;
+}
+
+.main-header img {
+    margin: 10px;
+    height: 70%;
+    width: auto;
+}
+
+.main-header span {
+    margin: 10px;
+    font-size: 25px;
+    color: #eee;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.main-header a {
+    text-decoration: none;
+    color: #eee;
+}
+
+.main-header span:hover {
+    font-size: 28px;
+}
+
+#home:hover {
+    color: #0AF;
+}
+
+#book_detail:hover {
+    color: #0FA;
+}
+
+#forum:hover {
+    color: #FA0;
+}
+
+.header-config {
+    position: absolute;
+    right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#search {
+    font-family: 'Merriweather', serif;
+    border-radius: 10px;
+    font-size: 15px;
+    width: 150px;
+    height: 30px;
+    padding: 10px;
+}
+
+.header-config button {
+    padding: 2px;
+    width: 40px;
+    cursor: pointer;
+    border-radius: 50%;
+    outline: none;
+    border: 3px solid #0000;
+    background-color: #0000;
+}
+
+.header-config i {
+    color: #eee;
+    font-size: 1rem;
+}
+
+#options, #options::after, #options::before {
+    transform-origin: center;
+    width: 30px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #eee;
+    cursor: pointer;
+}
+
+#options {
+    margin-left: 25px;
+}
+
+#options::after {
+    position: absolute;
+    content: '';
+    transform: translateY(10px);
+}
+
+#options::before {
+    position: absolute;
+    content: '';
+    transform: translateY(-10px);
+}

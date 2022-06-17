@@ -144,5 +144,13 @@
         "year": 1984,
         "description": "Clássico que deu origem à premiada trilogia dirigida por Francis Ford Coppola.Publicado em 1969, a saga O poderoso chefão é, até hoje, a mais perfeita reconstituição das famílias mafiosas de Nova York. O carismático Don Vito Corleone é o chefão de uma delas. Apesar de implacável, Don Vito é, essencialmente, um homem justo. Padrinho benevolente, nada recusa aos seus afilhados: conselho, dinheiro, vingança e até mesmo a morte de alguém. Em troca, o poderoso chefão pede apenas o respeito e a amizade de seus protegidos.",
         "cover_path": "o-poderoso-chefao.jpg"
+    },
+    "book_19": {
+        "id": 19,
+        "title": "O Silêncio dos Inocentes",
+        "author": "Thomas Harris",
+        "year": 2019,
+        "description": "Cinco mulheres são brutalmente assassinadas em diferentes localidades dos Estados Unidos pelo serial killer apelidado de Buffalo Bill. A jovem agente do FBI, Clarice Starling, fica surpresa ao ser chamada por Jack Crawford, chefe da Divisão de Ciência do Comportamento. Sua missão: interrogar o ardiloso psiquiatra Hannibal Lecter, mantido no Hospital Estadual de Baltimore para Criminosos com Transtornos Mentais, cuja mente psicopata é perigosamente voltada para o crime, mas pode se mostrar útil para o caso, ainda que ele jamais tenha cooperado com as forças da lei.",
+        "cover_path": "o-silencio-dos-inocentes.jpg"
     }
 }
