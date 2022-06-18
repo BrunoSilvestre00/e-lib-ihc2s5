@@ -86,18 +86,28 @@
     cursor: pointer;
 }
 
-#options {
+.opt-bar {
     margin-left: 25px;
 }
 
-#options::after {
+.opt-bar::after {
     position: absolute;
     content: '';
     transform: translateY(10px);
 }
 
-#options::before {
+.opt-bar::before {
     position: absolute;
     content: '';
     transform: translateY(-10px);
+}
+
+.opt-cross {
+    transform: rotate(45deg);
+}
+
+.opt-cross::after, .opt-cross::before {
+    position: absolute;
+    content: '';
+    transform: rotate(90deg);
 }

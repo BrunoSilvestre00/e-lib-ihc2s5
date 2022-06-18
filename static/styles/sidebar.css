@@ -1,0 +1,15 @@
+
+.main-side {
+    display: flex;
+}
+
+.sidebar {
+    width: 0;
+    height: 100%;
+    backgroud-color: #eeea;
+    transition: 0.5s;
+}
+
+.show {
+    width: 150px;
+}
