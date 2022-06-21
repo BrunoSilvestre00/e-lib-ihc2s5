@@ -5,7 +5,8 @@
         "author": "C. S. Lewis",
         "year": 2005,
         "description": "Viagens ao fim do mundo, criaturas fantásticas e batalhas épicas ente o bem e o mal - o que mais um leitor poderia querer de um livro? O livro que tem tudo isso é O leão, a feiticeira e o guarda-roupa, escrito em 1949 por Clive Staples Lewis. Mas Lewis não parou por aí, Seis outros livros vieram depois e, juntos, ficaram conhecidos como As crônicas de Nárnia. Nos últimos cinqüenta anos, As crônicas de Nárnia transcenderam o gênero da fantasia 'para se tornar parte do cânone da literatura clássica.",
-        "cover_path": "as-cronicas-de-narnia.jpg"       
+        "cover_path": "as-cronicas-de-narnia.jpg",
+        "cover_color": "#b34e25"   
     },
     "book_2": {
         "id": 2,
@@ -13,7 +14,8 @@
         "author": "E. L. James",
         "year": 2012,
         "description": "Quando Anastasia Steele entrevista o jovem empresário Christian Grey, descobre nele um homem atraente, brilhante e profundamente dominador. Ingênua e inocente, Ana se surpreende ao perceber que, a despeito da enigmática reserva de Grey, está desesperadamente atraída por ele. Incapaz de resistir à beleza discreta, à timidez e ao espírito independente de Ana, Grey admite que também a deseja — mas em seus próprios termos. Chocada e ao mesmo tempo seduzida pelas estranhas preferências de Grey, Ana hesita.",
-        "cover_path": "cinquenta-tons-de-cinza.jpg"      
+        "cover_path": "cinquenta-tons-de-cinza.jpg",
+        "cover_color": "#071b26"      
     },
     "book_3": {
         "id": 3,
@@ -21,7 +23,8 @@
         "author": "Rick Riordan",
         "year": 2021,
         "description": "Em sua mais nova aventura, Rick Riordan constrói uma releitura apaixonante e divertida de Vinte mil léguas submarinas, clássico de Júlio Verne Depois de nos encantar e nos fazer gargalhar com as façanhas e confusões de inúmeros deuses, semideuses e pobres mortais desavisados, o autor best-seller da série Percy Jackson e os olimpianos se lança em uma nova aventura, dessa vez no fundo do mar. Inspirado em Vinte mil léguas submarinas, clássico de Júlio Verne, Riordan nos conduz em uma viagem eletrizante até as profundezas do oceano.",
-        "cover_path": "daughter-of-the-deep.jpg"        
+        "cover_path": "daughter-of-the-deep.jpg",
+        "cover_color": "#1aaca3"       
     },
     "book_4": {
         "id": 4,
@@ -47,7 +50,8 @@
         "author": "Stephen King",
         "year": 2014,
         "description": "Durante as férias escolares de 1958, em Derry, pacata cidadezinha do Maine, Bill, Richie, Stan, Mike, Eddie, Ben e Beverly aprenderam o real sentido da amizade, do amor, da confiança e... do medo. O mais profundo e tenebroso medo. Naquele verão, eles enfrentaram pela primeira vez a Coisa, um ser sobrenatural e maligno que deixou terríveis marcas de sangue em Derry. Quase trinta anos depois, os amigos voltam a se encontrar. Uma nova onda de terror tomou a pequena cidade. Mike Hanlon, o único que permanece em Derry, dá o sinal. Precisam unir forças novamente.",
-        "cover_path": "it-a-coisa.jpg"      
+        "cover_path": "it-a-coisa.jpg",
+        "cover_color": "#272526"    
     },
     "book_7": {
         "id": 7,
@@ -55,7 +59,8 @@
         "author": "Suzanne Collins",
         "year": 2021,
         "description": "Depois da improvável e inusitada vitória de Katniss Everdeen e Peeta Mellark nos últimos Jogos Vorazes, algo parece ter mudado para sempre em Panem. Aqui e ali, distúrbios e agitações nos distritos dão sinais de que uma revolta é iminente. Katniss e Peeta, representantes do paupérrimo Distrito 12, não apenas venceram os Jogos, mas ridicularizaram o governo e conseguiram fazer todos – incluindo o próprio Peeta – acreditarem que são um casal apaixonado. A confusão na cabeça de Katniss não é menor do que a das ruas.",
-        "cover_path": "jogos-vorazes-em-chamas.jpg"        
+        "cover_path": "jogos-vorazes-em-chamas.jpg",
+        "cover_color": "#bd420d"
     },
     "book_8": {
         "id": 8,
@@ -63,7 +68,8 @@
         "author": "John Grogan",
         "year": 2020,
         "description": "John e Jenny eram jovens apaixonados com uma vida perfeita quando resolveram adotar um cãozinho. Após visitar uma fazenda, escolheram Marley, encantados com a doçura da mãe do filhote. Porém, depois de conhecerem o pai da ninhada, um cão rabugento, mal-encarado e bagunceiro, John e Jenny torceram para que Marley tivesse puxado à mãe, mas as preces deles definitivamente não foram atendidas. Daquele dia em diante, a vida da família Grogan nunca mais foi a mesma — ainda bem!",
-        "cover_path": "marley-e-eu.jpg"        
+        "cover_path": "marley-e-eu.jpg",
+        "cover_color": "#c16363"        
     },
     "book_9": {
         "id": 9,
@@ -71,7 +77,8 @@
         "author": "Darth Maul",
         "year": 2017,
         "description": "Ele foi cortado ao meio por Obi-Wan Kenobi e rejeitado por seu antigo mestre Sith, Darth Sidious, mas isso não foi suficiente para derrotar Darth Maul. Na verdade, só serviu para deixá-lo irado o suficiente para tomar de assalto a galáxia inteira. Após formar a Sombra Coletiva ― uma organização criminosa composta pelos Hutts, o Sol Negro, os mandalorianos e os temíveis Irmãos da Noite ―, Maul reúne suas tropas para travar uma sangrenta guerra contra Sidious e seus generais, sem jamais deixar de lado sua batalha contra os Jedi!",
-        "cover_path": "sw-filho-de-dathomir.jpg"       
+        "cover_path": "sw-filho-de-dathomir.jpg",
+        "cover_color": "#131313"       
     },
     "book_10": {
         "id": 10,
@@ -79,7 +86,8 @@
         "author": "H. P. Lovecraft",
         "year": 2021,
         "description": "A DarkSide® Books dá sequência a publicação de um dos autores mais influentes da literatura de terror, em contos apavorantes, que mostram toda a abrangência da força de escrita de H.P. Lovecraft. Stephen King, Neil Gaiman, Caitlín R. Kiernan, Ridley Scott, Sam Raimi, Alan Moore e muitos outros criadores têm as marcas do inventor dos mythos cthulhianos em suas obras.Hoje em dia é difícil imaginar a cultura pop sem a presença de Howard Phillips Lovecraft. Autor do mesmo quilate dos grandes nomes do horror, Lovecraft passou a vida desenvolvendo seres e universos fantásticos.",
-        "cover_path": "medo-classico-v2.jpg"      
+        "cover_path": "medo-classico-v2.jpg",
+        "cover_color": "#00aa6a"      
     },
     "book_11": {
         "id": 11,
@@ -87,7 +95,8 @@
         "author": "Herman Melville",
         "year": 2019,
         "description": "Lançado em 1851, Moby Dick, ou A baleia, de Herman Melville (1819-1891), se tornou um dos livros de aventura mais emblemáticos da literatura universal. A história do capitão Ahab, em busca de vingança contra o terrível cachalote que amputara sua perna, entrou definitivamente para a cultura popular, inspirando, entre outras criações, pinturas de Jackson Pollock e Frank Stella, adaptações de Orson Welles para o rádio e o teatro, um filme de John Huston, e até um blues do Led Zeppelin.",
-        "cover_path": "moby-dick.jpg"        
+        "cover_path": "moby-dick.jpg",
+        "cover_color": "#006168"        
     },
     "book_12": {
         "id": 12,
@@ -95,7 +104,8 @@
         "author": "Rick Riordan",
         "year": 2009,
         "description": "Nesse terceiro livro da série, um chamado do amigo Grover deixa Percy a postos para mais uma missão: dois novos meios-sangues foram encontrados, e sua ascendência ainda é desconhecida. Como sempre, Percy sabe que precisará contar com o poder de seus aliados heróis, com sua leal espada Contracorrente... e com uma caroninha da mãe. O que eles ainda não sabem é que os jovens descobertos não são os únicos em perigo: Cronos, o Senhor dos Titãs, arquitetou um de seus planos mais traiçoeiros, e os meios-sangues estarão frente a frente com o maior desafio de suas vidas: A Maldição do Titã.",
-        "cover_path": "percy-jackson-tintans-curse.jpg"     
+        "cover_path": "percy-jackson-tintans-curse.jpg",
+        "cover_color": "#090d29"     
     },
     "book_13": {
         "id": 13,
@@ -103,7 +113,8 @@
         "author": "Sir Arthur Conan Doyle",
         "year": 2012,
         "description": "O detetive Sherlock Holmes e seu fiel amigo dr. Watson retornam em mais uma série de mistérios, assassinatos, pistas e perseguições em 'O cão dos Baskerville'. O mistério a ser solucionado envolve a morte de Sir Charles Baskerville e um cão fantasmagórico que aterroriza os moradores da mansão Baskerville Hall. Esta obra traz o texto integral.",
-        "cover_path": "o-cao-dos-baskervilles.jpg"    
+        "cover_path": "o-cao-dos-baskervilles.jpg",
+        "cover_color": "#00454c"
     },
     "book_14": {
         "id": 14,
@@ -111,7 +122,8 @@
         "author": "Dan Brown",
         "year": 2021,
         "description": "Um assassinato no Museu do Louvre traz à tona uma sinistra conspiração para revelar um segredo que foi protegido por uma sociedade secreta desde os tempos de Jesus Cristo. A vítima é o curador do museu, Jacques Saunière, um dos líderes dessa fraternidade, o Priorado de Sião, que já teve como membros Leonardo da Vinci, Victor Hugo e Isaac Newton.",
-        "cover_path": "o-codigo-da-vinci.jpg"     
+        "cover_path": "o-codigo-da-vinci.jpg",
+        "cover_color": "#861b1a"     
     },
     "book_15": {
         "id": 15,
@@ -119,7 +131,8 @@
         "author": "Clive Cussler",
         "year": 2012,
         "description": "É 1908 e acumulam-se tensões internacionais enquanto o mundo caminha inexoravelmente para a guerra. Após um talentoso projetista de canhões de couraçados morrer em um aparente suicídio, sua filha, angustiada, recorre à lendária Agência Van Dorn para limpar o nome do pai. Van Dorn põe seu principal investigador no caso, Isaac Bell, que logo percebe que as pistas apontam não para suicídio, mas para assassinato. E quando se seguem outras mortes mais suspeitas, fica evidente que alguém — um ardiloso espião — está orquestrando a eliminação das mentes tecnológicas mais brilhantes... Mas isso é apenas o começo.",
-        "cover_path": "o-espiao.jpg"
+        "cover_path": "o-espiao.jpg",
+        "cover_color": "#220305"
     },
     "book_16": {
         "id": 16,
@@ -127,7 +140,8 @@
         "author": "Douglas Adams",
         "year": 2016,
         "description": "Pela primeira vez, reunimos em um único volume os cinco livros da cultuada série O Mochileiro das Galáxias, de Douglas Adams. Com mais de 15 milhões de exemplares vendidos, a saga do britânico esquisitão Arthur Dent pela Galáxia conquistou leitores do mundo inteiro. O humor ácido e as tramas surreais de Douglas Adams se tornaram ícones de uma geração e seguem fascinando – e divertindo – leitores de todas as idades. Pegue sua toalha, embarque nessa aventura improvável e, é claro, não entre em pânico!",
-        "cover_path": "o-guia-do-mochileiro.jpg"
+        "cover_path": "o-guia-do-mochileiro.jpg",
+        "cover_color": "#24404d"
     },
     "book_17": {
         "id": 17,
@@ -135,7 +149,8 @@
         "author": "Antoine de Saint-Exupéry",
         "year": 2018,
         "description": "Nesta clássica história que marcou gerações de leitores em todo o mundo, um piloto cai com seu avião no deserto do Saara e encontra um pequeno príncipe, que o leva a uma jornada filosófica e poética através de planetas que encerram a solidão humana. A edição conta com a clássica tradução do poeta imortal dom Marcos Barbosa, e é a versão mais consagrada da obra, publicada no Brasil desde 1952.",
-        "cover_path": "o-pequeno-principe.jpg"
+        "cover_path": "o-pequeno-principe.jpg",
+        "cover_color": "#827d83"
     },
     "book_18": {
         "id": 18,
@@ -143,7 +158,8 @@
         "author": "Mario Puzo",
         "year": 1984,
         "description": "Clássico que deu origem à premiada trilogia dirigida por Francis Ford Coppola.Publicado em 1969, a saga O poderoso chefão é, até hoje, a mais perfeita reconstituição das famílias mafiosas de Nova York. O carismático Don Vito Corleone é o chefão de uma delas. Apesar de implacável, Don Vito é, essencialmente, um homem justo. Padrinho benevolente, nada recusa aos seus afilhados: conselho, dinheiro, vingança e até mesmo a morte de alguém. Em troca, o poderoso chefão pede apenas o respeito e a amizade de seus protegidos.",
-        "cover_path": "o-poderoso-chefao.jpg"
+        "cover_path": "o-poderoso-chefao.jpg",
+        "cover_color": "#4e1319"
     },
     "book_19": {
         "id": 19,
@@ -151,6 +167,7 @@
         "author": "Thomas Harris",
         "year": 2019,
         "description": "Cinco mulheres são brutalmente assassinadas em diferentes localidades dos Estados Unidos pelo serial killer apelidado de Buffalo Bill. A jovem agente do FBI, Clarice Starling, fica surpresa ao ser chamada por Jack Crawford, chefe da Divisão de Ciência do Comportamento. Sua missão: interrogar o ardiloso psiquiatra Hannibal Lecter, mantido no Hospital Estadual de Baltimore para Criminosos com Transtornos Mentais, cuja mente psicopata é perigosamente voltada para o crime, mas pode se mostrar útil para o caso, ainda que ele jamais tenha cooperado com as forças da lei.",
-        "cover_path": "o-silencio-dos-inocentes.jpg"
+        "cover_path": "o-silencio-dos-inocentes.jpg",
+        "cover_color": "#ac9716"
     }
 }
