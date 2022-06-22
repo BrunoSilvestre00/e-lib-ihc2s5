@@ -1,0 +1,17 @@
+body[data-theme="t-dark"] {
+    --bg-color: #111;
+    --header-color: #222;
+    --txt-color: #eee;
+}
+
+body[data-theme="t-light"] {
+    --bg-color: #ccc;
+    --header-color: #ddd;
+    --txt-color: #111;
+}
+
+body {
+    position: absolute;
+    justify-content: center;
+    margin: 0;
+}

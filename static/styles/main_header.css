@@ -42,7 +42,7 @@
     color: #0FA;
 }
 
-#forum:hover {
+#club:hover {
     color: #FA0;
 }
 
@@ -86,18 +86,29 @@
     cursor: pointer;
 }
 
-#options {
+.opt-bar {
     margin-left: 25px;
 }
 
-#options::after {
+.opt-bar::after {
     position: absolute;
     content: '';
     transform: translateY(10px);
 }
 
-#options::before {
+.opt-bar::before {
     position: absolute;
     content: '';
     transform: translateY(-10px);
+}
+
+.opt-cross {
+    transform: rotate(45deg);
+    margin-left: 25px;
+}
+
+.opt-cross::after, .opt-cross::before {
+    position: absolute;
+    content: '';
+    transform: rotate(90deg);
 }
