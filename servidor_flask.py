@@ -5,6 +5,10 @@ import webbrowser
 app = Flask(__name__)
 BOOKS = None
 
+@app.route('/contato')
+def contato():
+    return render_template('contato.html')
+
 @app.route('/book-detail/<book_id>')
 def book_detail(book_id):
     book = BOOKS[f'book_{book_id}']

@@ -1,21 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Detalhe | e-Lib</title>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css" integrity="sha512-eMxdaSf5XW3ZW1wZCrWItO2jZ7A9FhuZfjVdztr7ZsKNOmt6TUMTQgfpNoVRyfPE5S9BC0A4suXzsGSrAOWcoQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--<link rel="stylesheet" href="{{ url_for('static',filename='styles/reset.css') }}">-->
     <link rel="stylesheet" href= "{{ url_for('static',filename='styles/main_header.css') }}">
-    <link rel="stylesheet" href= "{{ url_for('static',filename='styles/book_detail.css') }}">
-
+    <link rel="stylesheet" href= "{{ url_for('static',filename='styles/home.css') }}">
+    <link rel="stylesheet" href= "{{ url_for('static',filename='styles/contato.css') }}">
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.js" integrity="sha512-j+F4W//4Pu39at5I8HC8q2l1BNz4OF3ju39HyWeqKQagW6ww3ZF9gFcu8rzUbyTDY7gEo/vqqzGte0UPpo65QQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="{{ url_for('static',filename='scripts/book_detail.js') }}"></script>
+
+    <title>Home | e-Lib</title>
 </head>
-<body data-theme="t-dark" style="--cover-color: {{ book.cover_color }}aa;">
+<body  data-theme="t-dark">
+
     <div class="main-header">
         <img class="header-logo" src="{{ url_for('static',filename='logo/logo-icon.png') }}">
         <span><a id="home" href="/home">Home</a></span>
@@ -27,35 +31,48 @@
             <span id="options"></span>
         </div>
     </div>
-    <div class="main-div">
-        <div class="div-info">
-            <h1>
-                {{ book.title }}
-            </h1>
-            <h2>
-                {{ book.author }}
-            </h2>
-            <h4>
-                Ano da Edição: {{ book.year }}
-            </h4>
-            <p>
-               Sinopse: {{ book.description }}
-            </p>
-            <button class="btn-ler">LER</button>
-            <button class="btn-add">+ Minha Lista</button>
-        </div>
-        <div class="div-cover">
-            <img class="img-header" src="{{ url_for('static',filename='books-covers/%s' % book.cover_path) }}">
-        </div>
-    </div>
-    <div class="div-body">
-        
-    </div>
 
-    <div class="div-btns-config">
-        <button id="btn_theme" onclick="changeTheme()">tema</button><br>
-        <button id="btn_prev"><a href="/book-detail/{{ book.id-1 }}">{{ "<<" }}</a></button><br>
-        <button id="btn_prev"><a href="/book-detail/{{ book.id+1 }}">{{ ">>" }}</a></button>
-    </div>  
+
+    <div class="main-div">
+        <form>
+            <label for="nomeSobrenome">Nome e Sobrenome</label>
+            <input type="text" id="nomeSobrenome" class="input-padrao" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX XXXXX-XXXX)">
+
+            <label for="mensagem">mensagem</label>
+            <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+            <fieldset>
+                <legend>Como prefere o nosso contato?</legend>
+                <label for="radio-email">
+                    <input type="radio" name="contato" value="email" id="radio-email">
+                    Email</label> 
+
+                <label for="radio-telefone">
+                    <input type="radio" name="contato" value="telefone" id="radio-telefone">
+                    Telefone</label>
+                
+
+                <label for="radio-whatsapp">
+                    <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>
+                    Whatsapp</label>
+                
+            </fieldset>
+
+
+            <label class="checkbox"><input type="checkbox" checked>
+                Gostaria de receber nossas novidades por email?</label>
+
+            <input type="submit" value="Enviar" class="enviar">
+        </form>
+
+    </div>    
+
 </body>
+
 </html>
