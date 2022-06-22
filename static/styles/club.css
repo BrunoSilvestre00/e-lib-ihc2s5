@@ -6,16 +6,6 @@ html, body {
     min-width: 100%;
 }
 
-body[data-theme="t-dark"] {
-    --bg-color: #111;
-    --txt-color: #eee;
-}
-
-body[data-theme="t-light"] {
-    --bg-color: #ccc;
-    --txt-color: #111;
-}
-
 body {
     position: absolute;
     justify-content: center;
@@ -23,12 +13,6 @@ body {
     background-color: var(--bg-color);
 }
 
-.novo-topico {
-    position: absolute;
-    right: 220px;
-    display: flex;
-    align-items: center;
-}
 
 .btn-topico{
     border-radius: 6px;
@@ -39,25 +23,32 @@ body {
     align-items: center;
 }
 
-.container{
+.div-container{
+    width: 100vw;
+    margin: 0;
+    margin-top: 20px;
     display: flex;
     justify-content: space-between;
 }
 
-.container h1, h2, h3, h4, h5, h6, p, a, li {
+.div-container h1, h2, h3, h4, h5, h6, p, a, li {
     justify-self: left;
     color: var(--txt-color);
 }
 
 .partiners {
-    position: relative;
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    align-items: left;
     width: 25%;
     height: auto;
-    float: left;
+    /* float: left; */
     border-right: var(--txt-color) solid 1px; 
     text-align:justify; 
     padding-top: 20px;
-    padding-right: 10px;
+    margin-left: 10px;
+    /* padding-right: 10px; */
 } 
 
 .partiner-logo{
@@ -66,7 +57,7 @@ body {
 }
 
 .div-main { 
-    position: relative;
+    /* position: relative; */
     width: 55%;
     height: auto;
     text-align:justify 
@@ -96,10 +87,11 @@ body {
 }
 
 .recents {
-    position: relative;
+    /* position: relative; */
     width: 30%;
     height: auto;
-    float: right;
+    /* float: right; */
+    margin-right: 10px;
     border-left: var(--txt-color) solid 1px;
     padding-top: 20px;
     padding-left: 10px;

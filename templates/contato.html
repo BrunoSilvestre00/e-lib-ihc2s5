@@ -10,13 +10,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css" integrity="sha512-eMxdaSf5XW3ZW1wZCrWItO2jZ7A9FhuZfjVdztr7ZsKNOmt6TUMTQgfpNoVRyfPE5S9BC0A4suXzsGSrAOWcoQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!--<link rel="stylesheet" href="{{ url_for('static',filename='styles/reset.css') }}">-->
+    <link rel="stylesheet" href= "{{ url_for('static',filename='styles/theme.css') }}">
     <link rel="stylesheet" href= "{{ url_for('static',filename='styles/main_header.css') }}">
-    <link rel="stylesheet" href= "{{ url_for('static',filename='styles/home.css') }}">
+    <link rel="stylesheet" href= "{{ url_for('static',filename='styles/sidebar.css') }}">
     <link rel="stylesheet" href= "{{ url_for('static',filename='styles/contato.css') }}">
     
+    <script src="{{ url_for('static',filename='scripts/theme.js') }}"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.js" integrity="sha512-j+F4W//4Pu39at5I8HC8q2l1BNz4OF3ju39HyWeqKQagW6ww3ZF9gFcu8rzUbyTDY7gEo/vqqzGte0UPpo65QQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    <title>Home | e-Lib</title>
+    <title>Contato | e-Lib</title>
 </head>
 <body  data-theme="t-dark">
 
@@ -24,55 +26,69 @@
         <img class="header-logo" src="{{ url_for('static',filename='logo/logo-icon.png') }}">
         <span><a id="home" href="/home">Home</a></span>
         <span><a id="book_detail" href="/book-detail/1">Book Detail</a></span>
-        <span><a id="forum" href="/contato">Contato</a></span>
+        <span><a id="club" href="/clube">Clube do Livro</a></span>
         <div class="header-config">
             <input id="search" placeholder="Pesquisar"/>
             <button><i class="fa-solid fa-magnifying-glass"></i></button>
-            <span id="options"></span>
+            <span class="opt-bar" id="options" onclick="options_click()"></span>
         </div>
     </div>
 
+    <div class="main-side">
+        <div class="main-div">
+            <form>
+                <label for="nomeSobrenome">Nome e Sobrenome</label>
+                <input type="text" id="nomeSobrenome" class="input-padrao" required>
 
-    <div class="main-div">
-        <form>
-            <label for="nomeSobrenome">Nome e Sobrenome</label>
-            <input type="text" id="nomeSobrenome" class="input-padrao" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
 
-            <label for="email">Email</label>
-            <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX XXXXX-XXXX)">
 
-            <label for="telefone">Telefone</label>
-            <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX XXXXX-XXXX)">
+                <label for="mensagem">Mensagem</label>
+                <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
 
-            <label for="mensagem">mensagem</label>
-            <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+                <fieldset>
+                    <legend>Como prefere o nosso contato?</legend>
+                    <label for="radio-email">
+                        <input type="radio" name="contato" value="email" id="radio-email">
+                        Email</label> 
 
-            <fieldset>
-                <legend>Como prefere o nosso contato?</legend>
-                <label for="radio-email">
-                    <input type="radio" name="contato" value="email" id="radio-email">
-                    Email</label> 
+                    <label for="radio-telefone">
+                        <input type="radio" name="contato" value="telefone" id="radio-telefone">
+                        Telefone</label>
+                    
 
-                <label for="radio-telefone">
-                    <input type="radio" name="contato" value="telefone" id="radio-telefone">
-                    Telefone</label>
-                
-
-                <label for="radio-whatsapp">
-                    <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>
-                    Whatsapp</label>
-                
-            </fieldset>
+                    <label for="radio-whatsapp">
+                        <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>
+                        Whatsapp</label>
+                    
+                </fieldset>
 
 
-            <label class="checkbox"><input type="checkbox" checked>
-                Gostaria de receber nossas novidades por email?</label>
+                <label class="checkbox"><input type="checkbox" checked>
+                    Gostaria de receber nossas novidades por email?</label>
 
-            <input type="submit" value="Enviar" class="enviar">
-        </form>
+                <input type="submit" value="Enviar" class="enviar">
+            </form>
 
-    </div>    
+        </div>  
+        
+        <div class="sidebar">
+            <a href="/login"><div class="sidebar-icon" style="background-image: url({{ url_for('static',filename='sidebar-icons/user.png') }})"></div></a>
+            <p>Usuário</p>
+            <hr>
+            <div class="sidebar-icon" onclick="changeTheme()" style="background-image: url({{ url_for('static',filename='sidebar-icons/settings.png') }})"></div>
+            <p>Configurações</p>
+            <hr>
+            <a href="/contato"><div class="sidebar-icon" style="background-image: url({{ url_for('static',filename='sidebar-icons/contact.png') }})"></div></a>
+            <p>Contato</p>
+            <hr>
+        </div>
+    </div> 
 
+    <script src="{{ url_for('static',filename='scripts/sidebar.js') }}"></script>
 </body>
 
 </html>

@@ -110,3 +110,15 @@
     content: '';
     transform: rotate(90deg);
 }
+
+#novo-topico {
+    border-radius: 6px;
+    border: 2px solid var(--txt-color);
+    color: var(--txt-color);
+    margin: 5px;
+    font-size: 15px;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+}

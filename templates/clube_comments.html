@@ -8,9 +8,12 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css" integrity="sha512-eMxdaSf5XW3ZW1wZCrWItO2jZ7A9FhuZfjVdztr7ZsKNOmt6TUMTQgfpNoVRyfPE5S9BC0A4suXzsGSrAOWcoQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href= "{{ url_for('static',filename='styles/theme.css') }}">
     <link rel="stylesheet" href= "{{ url_for('static',filename='styles/main_header.css') }}">
-    <link rel="stylesheet" href= "{{ url_for('static',filename='styles/home.css') }}">
+    <link rel="stylesheet" href= "{{ url_for('static',filename='styles/sidebar.css') }}">
     <link rel="stylesheet" href= "{{ url_for('static',filename='styles/club.css') }}">
+    
+    <script src="{{ url_for('static',filename='scripts/theme.js') }}"></script>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.js" integrity="sha512-j+F4W//4Pu39at5I8HC8q2l1BNz4OF3ju39HyWeqKQagW6ww3ZF9gFcu8rzUbyTDY7gEo/vqqzGte0UPpo65QQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
@@ -19,132 +22,143 @@
 <body data-theme="t-dark">
 
 	<div class="main-header">
-        <img class="header-logo" alt="Clube do livro" src="{{ url_for('static',filename='logo/logo-icon.png') }}">
+        <img class="header-logo" src="{{ url_for('static',filename='logo/logo-icon.png') }}">
         <span><a id="home" href="/home">Home</a></span>
         <span><a id="book_detail" href="/book-detail/1">Book Detail</a></span>
-        <span><a id="contato">Contato</a></span>
-        <div class="novo-topico">
-            <button class="btn-topico" id="novo-topico">Novo tópico</button>
-        </div>
+        <span><a id="club" href="/clube">Clube do Livro</a></span>
         <div class="header-config">
+            <button class="btn-topico" id="novo-topico">Novo tópico</button>
             <input id="search" placeholder="Pesquisar"/>
             <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            <span class="opt-bar" id="options" onclick="options_click()"></span>
         </div>
     </div>
 
-    <div class="container"> 
-        <div class="partiners">
-            <h6>Canais Parceiros</h6>
-            <section>
-                <a id="home" href="/home">
-                    <img class="partiner-logo" src="{{ url_for('static',filename='logo/full-logo.png') }}">
-                </a>
-            </section>
-        </div>
-
-
-        <div class="div-maim">
-            <div class="div-livro">
-                <section class="sec-comment">
-                    <h4>H.P. Lovecraft: Medo Clássico Volume 2</h4>
-                    
-                    <h6>Enviado por: Miguel R.</h6>
-                    
-                    <p>
-                        Enquanto o volume 1 certamente conta com diversos clássicos de Lovecraft, essa edição sem dúvida é a que abarca alguns dos contos mais bem avaliados (não necessariamente os mais famosos) do autor.
-                        <br>
-                        Mas eu não vou me estender muito, só vim escrever sobre uma coisa, na esperança de que alguém da Darkside veja o comentário: essas ilustrações do livro são PERFEITAS.
-                        <br>
-                        Veja bem, as do primeiro livro também são legais, mas na minha opinião não chegam aos pés das do volume 2.
-                        <br>
-                        Pra mim, elas adicionam uma carga tão grande de emoção na obra, que eu fico espantado. Termino de ler um conto, vejo as ilustrações e quero lê-lo de novo.
-                        <br>
-                        Darkside, por favor, mantenha esse ilustrador para o volume 3, 4, 5 ou quantos forem.. eu honestamente compraria ainda que só ouvesse a arte, e nenhum texto.
-                        <br>
-                        Mais uma edição primorosa, parabéns.
-                    </p>
+    <div class="main-side">
+        <div class="div-container"> 
+            <div class="partiners">
+                <h6>Canais Parceiros</h6>
+                <section>
+                    <a id="home" href="/home">
+                        <img class="partiner-logo" src="{{ url_for('static',filename='logo/full-logo.png') }}">
+                    </a>
                 </section>
+            </div>
 
-                <section class="sec-comment">
-                    <h6>Foloni</h6>
-                    <p>
-                        Ouso afirmar que o segundo volume de "HP Lovecraft - Medo Clássico" é ainda melhor que o primeiro. Os contos "O Horror em Dunwich", "A Música de Erich Zann" e "Os Gatos de Ulthar" por si só valem o preço 
-                        <br>
-                        da obra, mas ainda há mais! "A Cor que Caiu do Espaço" (seu melhor conto em minha opinião), "O Modelo de Pickman", "O que Assombra nas Trevas", "Do Além" e "A Sombra Sobre Innsmouth" fecham com chave de ouro.
-                        <br>
-                        Além dos magistrais contos, há o brilhante ensaio "O Horror Sobrenatural na Literatura" e a primorosa e fiel tradução de Ramon Mapa (mesmo em momentos em que o autor soa bastante racista, acrescentando o 
-                        <br>
-                        tradutor uma interessante nota de rodapé à p. 235) com belíssimas ilustrações de Virgil Finlay.
-                        <br>
-                        Em resumo: comprem sem medo!
-                    </p>
+
+            <div class="div-maim">
+                <div class="div-livro">
+                    <section class="sec-comment">
+                        <h4>H.P. Lovecraft: Medo Clássico Volume 2</h4>
+                        
+                        <h6>Enviado por: Miguel R.</h6>
+                        
+                        <p>
+                            Enquanto o volume 1 certamente conta com diversos clássicos de Lovecraft, essa edição sem dúvida é a que abarca alguns dos contos mais bem avaliados (não necessariamente os mais famosos) do autor.
+                            <br>
+                            Mas eu não vou me estender muito, só vim escrever sobre uma coisa, na esperança de que alguém da Darkside veja o comentário: essas ilustrações do livro são PERFEITAS.
+                            <br>
+                            Veja bem, as do primeiro livro também são legais, mas na minha opinião não chegam aos pés das do volume 2.
+                            <br>
+                            Pra mim, elas adicionam uma carga tão grande de emoção na obra, que eu fico espantado. Termino de ler um conto, vejo as ilustrações e quero lê-lo de novo.
+                            <br>
+                            Darkside, por favor, mantenha esse ilustrador para o volume 3, 4, 5 ou quantos forem.. eu honestamente compraria ainda que só ouvesse a arte, e nenhum texto.
+                            <br>
+                            Mais uma edição primorosa, parabéns.
+                        </p>
+                    </section>
+
+                    <section class="sec-comment">
+                        <h6>Foloni</h6>
+                        <p>
+                            Ouso afirmar que o segundo volume de "HP Lovecraft - Medo Clássico" é ainda melhor que o primeiro. Os contos "O Horror em Dunwich", "A Música de Erich Zann" e "Os Gatos de Ulthar" por si só valem o preço 
+                            <br>
+                            da obra, mas ainda há mais! "A Cor que Caiu do Espaço" (seu melhor conto em minha opinião), "O Modelo de Pickman", "O que Assombra nas Trevas", "Do Além" e "A Sombra Sobre Innsmouth" fecham com chave de ouro.
+                            <br>
+                            Além dos magistrais contos, há o brilhante ensaio "O Horror Sobrenatural na Literatura" e a primorosa e fiel tradução de Ramon Mapa (mesmo em momentos em que o autor soa bastante racista, acrescentando o 
+                            <br>
+                            tradutor uma interessante nota de rodapé à p. 235) com belíssimas ilustrações de Virgil Finlay.
+                            <br>
+                            Em resumo: comprem sem medo!
+                        </p>
+                    </section>
+
+                    <section class="sec-comment">
+                        <h6>Willian M. Z.</h6>
+                        <p>
+                            Depois de um período sem novidades a Darkside lançou a continuação.
+                            <br>
+                            <br>
+                            Dentre as duas edições, gostei dessa. Acho muito bonita a arte, tanto interna (que, diga-se de passagem, ficou incrível, não consegui achar defeitos) e externa.
+                            <br>
+                            Pode ser apenas impressão minha mas... o único "ponto negativo" (se é que pode se chamar assim) são as cores escolhidas para realizar a arte da capa. Acredito que as pessoas que não tomarem um 
+                            <br>
+                            certo cuidado podem acabar sujando, mesmo que sem querer, a capa. 
+                            <br>
+                            Justamente pelo volume 1 ser verde e este laranja. Mas, como disse, é só tomar um certo cuidado e tá tudo bem!
+                        </p>
+                    </section>
+                </div>
+            </div>
+
+
+            <div class="recents">
+                <section class="sec-recomendado">
+                    <h6>Recomendados</h6>
+                    <ul>
+                        <li>
+                            <a id="recomendado" href="/book-detail/8">Marley e eu</a> 
+                        </li>
+                        <li>
+                            <a id="recomendado" href="/book-detail/19">O silêncio dos inocentes</a>
+                        </li>
+                        <li>
+                            <a id="recomendado" href="/book-detail/11">Mobi Dick</a> 
+                        </li>
+                        <li>
+                            <a id="recomendado" href="/book-detail/17">O pequeno príncipe</a> 
+                        </li>
+                        <li>
+                            <a id="recomendado" href="/book-detail/2">50 tons de cinza</a> 
+                        </li>
+                    </ul>
                 </section>
-
-                <section class="sec-comment">
-                    <h6>Willian M. Z.</h6>
+                <section class="sec-visto">
+                    <h6>Mais vistos</h6>
                     <p>
-                        Depois de um período sem novidades a Darkside lançou a continuação.
+                        <a id="recomendado" href="/book-detail/19">O silêncio dos inocentes</a> 
                         <br>
+                        <a id="recomendado" href="/book-detail/4">Drácula</a> 
                         <br>
-                        Dentre as duas edições, gostei dessa. Acho muito bonita a arte, tanto interna (que, diga-se de passagem, ficou incrível, não consegui achar defeitos) e externa.
+                        <a id="recomendado" href="/book-detail/1">Nárnia</a> 
                         <br>
-                        Pode ser apenas impressão minha mas... o único "ponto negativo" (se é que pode se chamar assim) são as cores escolhidas para realizar a arte da capa. Acredito que as pessoas que não tomarem um 
+                        <a id="recomendado" href="/book-detail/15">O espião</a> 
                         <br>
-                        certo cuidado podem acabar sujando, mesmo que sem querer, a capa. 
+                        <a id="recomendado" href="/book-detail/8">Marley e eu</a> 
                         <br>
-                        Justamente pelo volume 1 ser verde e este laranja. Mas, como disse, é só tomar um certo cuidado e tá tudo bem!
+                        <a id="recomendado" href="/book-detail/2">Cinquenta tons de cinza</a> 
+                        <br>
+                        <a id="recomendado" href="/book-detail/3">Daughter of the deep</a> 
+                        <br>
+                        <a id="recomendado" href="/book-detail/17">O pequeno príncipe</a> 
                     </p>
                 </section>
             </div>
         </div>
 
-
-        <div class="recents">
-            <section class="sec-recomendado">
-                <h6>Recomendados</h6>
-                <ul>
-                    <li>
-                        <a id="recomendado" href="/book-detail/8">Marley e eu</a> 
-                    </li>
-                    <li>
-                        <a id="recomendado" href="/book-detail/19">O silêncio dos inocentes</a>
-                    </li>
-                    <li>
-                        <a id="recomendado" href="/book-detail/11">Mobi Dick</a> 
-                    </li>
-                    <li>
-                        <a id="recomendado" href="/book-detail/17">O pequeno príncipe</a> 
-                    </li>
-                    <li>
-                        <a id="recomendado" href="/book-detail/2">50 tons de cinza</a> 
-                    </li>
-                </ul>
-            </section>
-            <section class="sec-visto">
-                <h6>Mais vistos</h6>
-                <p>
-                    <a id="recomendado" href="/book-detail/19">O silêncio dos inocentes</a> 
-                    <br>
-                    <a id="recomendado" href="/book-detail/4">Drácula</a> 
-                    <br>
-                    <a id="recomendado" href="/book-detail/1">Nárnia</a> 
-                    <br>
-                    <a id="recomendado" href="/book-detail/15">O espião</a> 
-                    <br>
-                    <a id="recomendado" href="/book-detail/8">Marley e eu</a> 
-                    <br>
-                    <a id="recomendado" href="/book-detail/2">Cinquenta tons de cinza</a> 
-                    <br>
-                    <a id="recomendado" href="/book-detail/3">Daughter of the deep</a> 
-                    <br>
-                    <a id="recomendado" href="/book-detail/17">O pequeno príncipe</a> 
-                </p>
-            </section>
+        <div class="sidebar">
+            <a href="/login"><div class="sidebar-icon" style="background-image: url({{ url_for('static',filename='sidebar-icons/user.png') }})"></div></a>
+            <p>Usuário</p>
+            <hr>
+            <div class="sidebar-icon" onclick="changeTheme()" style="background-image: url({{ url_for('static',filename='sidebar-icons/settings.png') }})"></div>
+            <p>Configurações</p>
+            <hr>
+            <a href="/contato"><div class="sidebar-icon" style="background-image: url({{ url_for('static',filename='sidebar-icons/contact.png') }})"></div></a>
+            <p>Contato</p>
+            <hr>
         </div>
     </div>
-	
-	<button onclick="topFunction()" id="btnTop" title="Go to top">
-		<i class="arrow up"></i>
-	</button>
+
+    <script src="{{ url_for('static',filename='scripts/sidebar.js') }}"></script>
 </body>
 </html>
