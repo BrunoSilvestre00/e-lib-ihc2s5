@@ -5,6 +5,14 @@ import webbrowser
 app = Flask(__name__)
 BOOKS = None
 
+@app.route('/clube_comments')
+def clube_comments():
+    return render_template('clube_comments.html')
+
+@app.route('/clube')
+def clube():
+    return render_template('clube.html')
+
 @app.route('/book-detail/<book_id>')
 def book_detail(book_id):
     book = BOOKS[f'book_{book_id}']

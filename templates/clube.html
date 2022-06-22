@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css" integrity="sha512-eMxdaSf5XW3ZW1wZCrWItO2jZ7A9FhuZfjVdztr7ZsKNOmt6TUMTQgfpNoVRyfPE5S9BC0A4suXzsGSrAOWcoQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href= "{{ url_for('static',filename='styles/main_header.css') }}">
+    <link rel="stylesheet" href= "{{ url_for('static',filename='styles/home.css') }}">
+    <link rel="stylesheet" href= "{{ url_for('static',filename='styles/club.css') }}">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.js" integrity="sha512-j+F4W//4Pu39at5I8HC8q2l1BNz4OF3ju39HyWeqKQagW6ww3ZF9gFcu8rzUbyTDY7gEo/vqqzGte0UPpo65QQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <title>Clube | e-Lib</title>
+</head>
+<body data-theme="t-dark">
+
+	<div class="main-header">
+        <img class="header-logo" alt="Clube do livro" src="{{ url_for('static',filename='logo/logo-icon.png') }}">
+        <span><a id="home" href="/home">Home</a></span>
+        <span><a id="book_detail" href="/book-detail/1">Book Detail</a></span>
+        <span><a id="contato">Contato</a></span>
+        <div class="novo-topico">
+            <button class="btn-topico" id="novo-topico">Novo tópico</button>
+        </div>
+        <div class="header-config">
+            <input id="search" placeholder="Pesquisar"/>
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+    </div>
+
+    <div class="container"> 
+        <div class="partiners">
+            <h6>Canais Parceiros</h6>
+            <section>
+                <a id="home" href="/home">
+                    <img class="partiner-logo" src="{{ url_for('static',filename='logo/full-logo.png') }}">
+                </a>
+            </section>
+        </div>
+
+
+        <div class="div-maim">
+            <div class="div-livro">
+                <section class="sec-livro">
+                    <h4>H.P. Lovecraft: Medo Clássico Volume 2</h4>
+                    
+                    <h6>Enviado por: Miguel R.</h6>
+                    
+                    <p>
+                        Enquanto o volume 1 certamente conta com diversos clássicos de Lovecraft, essa 
+                        <br>
+                        edição sem dúvida é a que abarca alguns dos contos mais bem avaliados (não necessariamente 
+                        <br>
+                        os mais famosos) do autor.
+                        <br>
+                        Mas eu não vou me estender muito, só vim escrever sobre uma coisa, na esperança de que 
+                        <br>
+                        alguém da Darkside veja o comentário: essas ilustrações do livro são PERFEITAS.
+                        <br>
+                        Veja bem, as do primeiro livro também são legais, mas na minha opinião não chegam aos 
+                        <br>
+                        pés das do volume 2.
+                        <br>
+                        Pra mim, elas adicionam uma carga tão grande de emoção na obra, que eu fico espantado. 
+                        <br>
+                        Termino de ler um conto, vejo as ilustrações e quero lê-lo de novo.
+                        <br>
+                        Darkside, por favor, mantenha esse ilustrador para o volume 3, 4, 5 ou quantos forem.. 
+                        <br>
+                        eu honestamente compraria ainda que só ouvesse a arte, e nenhum texto.
+                        <br>
+                        Mais uma edição primorosa, parabéns.
+                    </p>
+                </section>
+                <div class="continue">
+                    <a href="/clube_comments">Continuar Lendo...</a>
+                </div>
+            </div>
+            
+            <div class="div-livro">
+                <section class="sec-livro">
+                    <h4>O silêncio dos inocentes</h4>
+                    
+                    <h6>Enviado por: Lidiane M.</h6>
+                    
+                    <p>
+                        Um livro muito bom, com uma história super envolvente, que te deixa apreensivo e esperando 
+                        <br>
+                        um final espetacular, eu imaginava ser mais surpreendida, não sei na verdade o que faltou 
+                        <br>
+                        na história pra ser favorito.
+                        <br>
+                        Starling, é uma estudante criminal, é colocada a prova para entrevistar o Dr. Lecter, um 
+                        <br>
+                        médico que já matou muitos, Dr. Lecter gosta de brincar com a mente das pessoas, ele se 
+                        <br>
+                        diverte com isso, isso quando ele responde o que perguntam. Starling, é boa no que faz, 
+                        <br>
+                        mas no decorrer da história, tentam tirar o caso dela, conhecemos a história de quando ela 
+                        <br>
+                        era criança, ela teve muitas surpresas ao investigar o caso buffalo bill.
+                        <br>
+                        Dr. Lecter, tem uma mente brilhante, onde me deixava de boca aberta as dicas que ele dava, o 
+                        <br>
+                        jeito que ele descobria coisas mesmo estando preso e seu final foi espetacular.
+                        <br>
+                        Fiquei com vontade de ler os outros livros, o anterior a esse onde conta mais sobre o 
+                        <br>
+                        Dr. Lecter e o próximo que é mais um caso para a Starling e Dr. Lecter.
+                        <br>
+                        Indico a leitura, foi boa.
+                    </p>
+                </section>
+                <div class="continue">
+                    <a href="">Continuar Lendo...</a>
+                </div>
+            </div>
+            
+            <div class="div-livro">
+                <div class="div-livro">
+                    <section class="sec-livro">
+                        <h4>Cinquenta tons de cinza</h4>
+                        
+                        <h6>Enviado por: Samantha</h6>
+                        
+                        <p>
+                            Não consigo me decidir sobre o que sinto por esse livro. A personalidade do Christian não 
+                            <br>
+                            é das minhas favoritas, em compensação, a Ana me diverte, menos quando se diminui ou se 
+                            <br>
+                            coloca em situações desconfortáveis por ele. Ou até mesmo quando o trata como um Deus. É 
+                            
+                            difícil opinar, o relacionamento é obviamente ruim e ela acaba se machucando, porque acha 
+                            <br>
+                            que pode o mudar. E não funciona desse jeito né...
+                            <br>
+                            Mas enfim, a leitura pode ser divertida em muitas partes, irritante em outras. Acho que 
+                            <br>
+                            vai de opinião e gostos, eu me dei bem com o livro, mas pessoalmente não me sentiria 
+                            <br>
+                            atraída por alguém como o Christian, obsessivo e super protetor - em partes. Ele se sente 
+                            <br>
+                            bem sabendo que a Ana está bem, mesmo que às vezes as atitudes dele sejam exageradas e a 
+                            <br>
+                            deixem confusa e desconfortável. É ruim sabe?! É tudo muito exagerado e no fim, ela cai 
+                            <br>
+                            na real - não completamente, mas já é algo. Eu a acho inteligente, principalmente quando 
+                            <br>
+                            negocia com ele e se dá bem. Entretanto, odeio sua deusa interior e irritante.
+                            <br>
+                            Por fim, depende do leitor e da paciência dele...
+                        </p>
+                    </section>
+                    <div class="continue">
+                        <a href="">Continuar Lendo...</a>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        
+        <div class="recents">
+            <section class="sec-recomendado">
+                <h6>Recomendados</h6>
+                <ul>
+                    <li>
+                        <a id="recomendado" href="/book-detail/8">Marley e eu</a> 
+                    </li>
+                    <li>
+                        <a id="recomendado" href="/book-detail/19">O silêncio dos inocentes</a>
+                    </li>
+                    <li>
+                        <a id="recomendado" href="/book-detail/11">Mobi Dick</a> 
+                    </li>
+                    <li>
+                        <a id="recomendado" href="/book-detail/17">O pequeno príncipe</a> 
+                    </li>
+                    <li>
+                        <a id="recomendado" href="/book-detail/2">50 tons de cinza</a> 
+                    </li>
+                </ul>
+            </section>
+            <section class="sec-visto">
+                <h6>Mais vistos</h6>
+                <p>
+                    <a id="recomendado" href="/book-detail/19">O silêncio dos inocentes</a> 
+                    <br>
+                    <a id="recomendado" href="/book-detail/4">Drácula</a> 
+                    <br>
+                    <a id="recomendado" href="/book-detail/1">Nárnia</a> 
+                    <br>
+                    <a id="recomendado" href="/book-detail/15">O espião</a> 
+                    <br>
+                    <a id="recomendado" href="/book-detail/8">Marley e eu</a> 
+                    <br>
+                    <a id="recomendado" href="/book-detail/2">Cinquenta tons de cinza</a> 
+                    <br>
+                    <a id="recomendado" href="/book-detail/3">Daughter of the deep</a> 
+                    <br>
+                    <a id="recomendado" href="/book-detail/17">O pequeno príncipe</a> 
+                </p>
+            </section>
+        </div>
+    </div>
+    
+   
+</body>
+</html>
