@@ -5,6 +5,10 @@ import webbrowser
 app = Flask(__name__)
 BOOKS = None
 
+@app.route('/contato')
+def contato():
+    return render_template('contato.html')
+  
 @app.route('/clube_comments')
 def clube_comments():
     return render_template('clube_comments.html')

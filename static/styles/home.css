@@ -105,3 +105,14 @@
     font-family: 'Merriweather', serif;
     color: var(--txt-color);
 }
+
+footer{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.copyright{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-top: 20px ;
+}
