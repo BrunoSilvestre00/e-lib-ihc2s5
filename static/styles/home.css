@@ -5,23 +5,6 @@
     margin: 0;
 }
 
-body[data-theme="t-dark"] {
-    --bg-color: #111;
-    --header-color: #222;
-    --txt-color: #eee;
-}
-
-body[data-theme="t-light"] {
-    --bg-color: #ccc;
-    --txt-color: #111;
-}
-
-body {
-    position: absolute;
-    justify-content: center;
-    margin: 0;
-}
-
 .main-div {
     display: flex;
     flex-direction: column;
@@ -68,11 +51,11 @@ body {
 }
 
 .controller h2 {
-    color: #eee;
+    color: var(--txt-color);
 }
 
 .controls i {
-    color: #eee;
+    color: var(--txt-color);
     font-size: 1rem;
 }
 
@@ -82,13 +65,13 @@ body {
     cursor: pointer;
     border-radius: 50%;
     outline: none;
-    border: 3px solid #eee;
+    border: 3px solid var(--txt-color);
     background-color: #0000;
     box-shadow: 0 0 5px #bbb;
 }
 
 .slide-img {
-    height: 330px;
+    height: 300px;
     width: auto;
     border-radius: 10px;
     background-position: center;
@@ -120,7 +103,7 @@ body {
 
 .main-div p {
     font-family: 'Merriweather', serif;
-    color: #eee;
+    color: var(--txt-color);
 }
 
 footer{

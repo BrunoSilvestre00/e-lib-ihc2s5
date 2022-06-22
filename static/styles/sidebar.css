@@ -1,0 +1,47 @@
+
+.main-side {
+    display: flex;
+    width: 99vw;
+}
+
+.sidebar {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 0;
+    background-color: var(--bg-color);
+    font-size: 0.6em;
+    transition: 0.5s;
+}
+
+.sidebar p {
+    color: var(--txt-color);
+    margin: 0;
+}
+
+.sidebar hr {
+    width: 90%;
+    height: 1px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: var(--txt-color);
+}
+
+.show {
+    display: flex;
+    width: auto;
+    padding: 10px;
+}
+
+.sidebar-icon {
+    margin-top: 20px;
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+}
+
+.sidebar-icon:hover {
+    transform: scale(1.1);
+}
