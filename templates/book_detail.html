@@ -9,53 +9,65 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css" integrity="sha512-eMxdaSf5XW3ZW1wZCrWItO2jZ7A9FhuZfjVdztr7ZsKNOmt6TUMTQgfpNoVRyfPE5S9BC0A4suXzsGSrAOWcoQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href= "{{ url_for('static',filename='styles/main_header.css') }}">
+    <link rel="stylesheet" href= "{{ url_for('static',filename='styles/theme.css') }}">
     <link rel="stylesheet" href= "{{ url_for('static',filename='styles/book_detail.css') }}">
-
+    <link rel="stylesheet" href= "{{ url_for('static',filename='styles/main_header.css') }}">
+    <link rel="stylesheet" href= "{{ url_for('static',filename='styles/sidebar.css') }}">
+    
+    <script src="{{ url_for('static',filename='scripts/theme.js') }}"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.js" integrity="sha512-j+F4W//4Pu39at5I8HC8q2l1BNz4OF3ju39HyWeqKQagW6ww3ZF9gFcu8rzUbyTDY7gEo/vqqzGte0UPpo65QQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="{{ url_for('static',filename='scripts/book_detail.js') }}"></script>
 </head>
 <body data-theme="t-dark" style="--cover-color: {{ book.cover_color }}aa;">
     <div class="main-header">
         <img class="header-logo" src="{{ url_for('static',filename='logo/logo-icon.png') }}">
         <span><a id="home" href="/home">Home</a></span>
         <span><a id="book_detail" href="/book-detail/1">Book Detail</a></span>
-        <span><a id="forum">Forum</a></span>
+        <span><a id="club" href="/clube">Clube do Livro</a></span>
         <div class="header-config">
             <input id="search" placeholder="Pesquisar"/>
             <button><i class="fa-solid fa-magnifying-glass"></i></button>
-            <span id="options"></span>
+            <span class="opt-bar" id="options" onclick="options_click()"></span>
         </div>
-    </div>
-    <div class="main-div">
-        <div class="div-info">
-            <h1>
-                {{ book.title }}
-            </h1>
-            <h2>
-                {{ book.author }}
-            </h2>
-            <h4>
-                Ano da Edição: {{ book.year }}
-            </h4>
-            <p>
-               Sinopse: {{ book.description }}
-            </p>
-            <button class="btn-ler">LER</button>
-            <button class="btn-add">+ Minha Lista</button>
-        </div>
-        <div class="div-cover">
-            <img class="img-header" src="{{ url_for('static',filename='books-covers/%s' % book.cover_path) }}">
-        </div>
-    </div>
-    <div class="div-body">
-        
     </div>
 
-    <div class="div-btns-config">
-        <button id="btn_theme" onclick="changeTheme()">tema</button><br>
-        <button id="btn_prev"><a href="/book-detail/{{ book.id-1 }}">{{ "<<" }}</a></button><br>
-        <button id="btn_prev"><a href="/book-detail/{{ book.id+1 }}">{{ ">>" }}</a></button>
-    </div>  
+    <div class="main-side">
+        <div class="main-div">
+            <div class="div-info">
+                <br>
+                <h1>
+                    {{ book.title }}
+                </h1>
+                <h2>
+                    {{ book.author }}
+                </h2>
+                <h5>
+                    Ano da Edição: {{ book.year }}
+                </h5>
+                <p>
+                Sinopse: {{ book.description }}
+                </p>
+                <button class="btn-ler">LER</button>
+                <button class="btn-add">+ Minha Lista</button>
+            </div>
+            <div class="div-cover">
+                <img class="img-header" src="{{ url_for('static',filename='books-covers/%s' % book.cover_path) }}">
+            </div>
+        </div>
+
+        <div class="sidebar">
+            <a href="/login"><div class="sidebar-icon" style="background-image: url({{ url_for('static',filename='sidebar-icons/user.png') }})"></div></a>
+            <p>Usuário</p>
+            <hr>
+            <div class="sidebar-icon" onclick="changeTheme()" style="background-image: url({{ url_for('static',filename='sidebar-icons/settings.png') }})"></div>
+            <p>Configurações</p>
+            <hr>
+            <a href="/contato"><div class="sidebar-icon" style="background-image: url({{ url_for('static',filename='sidebar-icons/contact.png') }})"></div></a>
+            <p>Contato</p>
+            <hr>
+        </div>
+
+        <script src="{{ url_for('static',filename='scripts/home.js') }}"></script>
+        <script src="{{ url_for('static',filename='scripts/sidebar.js') }}"></script>
+    </div>
 </body>
 </html>

@@ -8,10 +8,12 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css" integrity="sha512-eMxdaSf5XW3ZW1wZCrWItO2jZ7A9FhuZfjVdztr7ZsKNOmt6TUMTQgfpNoVRyfPE5S9BC0A4suXzsGSrAOWcoQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href= "{{ url_for('static',filename='styles/theme.css') }}">
     <link rel="stylesheet" href= "{{ url_for('static',filename='styles/main_header.css') }}">
     <link rel="stylesheet" href= "{{ url_for('static',filename='styles/sidebar.css') }}">
     <link rel="stylesheet" href= "{{ url_for('static',filename='styles/home.css') }}">
     
+    <script src="{{ url_for('static',filename='scripts/theme.js') }}"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.js" integrity="sha512-j+F4W//4Pu39at5I8HC8q2l1BNz4OF3ju39HyWeqKQagW6ww3ZF9gFcu8rzUbyTDY7gEo/vqqzGte0UPpo65QQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <title>Home | e-Lib</title>
@@ -21,7 +23,7 @@
         <img class="header-logo" src="{{ url_for('static',filename='logo/logo-icon.png') }}">
         <span><a id="home" href="/home">Home</a></span>
         <span><a id="book_detail" href="/book-detail/1">Book Detail</a></span>
-        <span><a id="forum">Forum</a></span>
+        <span><a id="club" href="/clube">Clube do Livro</a></span>
         <div class="header-config">
             <input id="search" placeholder="Pesquisar"/>
             <button><i class="fa-solid fa-magnifying-glass"></i></button>
@@ -146,7 +148,15 @@
             <p>Deselvolvido por Arthur O. Vaso • Bruno Ap. Silvestre • Junior F. Marques</p>
         </div>
         <div class="sidebar">
-
+            <a href="/login"><div class="sidebar-icon" style="background-image: url({{ url_for('static',filename='sidebar-icons/user.png') }})"></div></a>
+            <p>Usuário</p>
+            <hr>
+            <div class="sidebar-icon" onclick="changeTheme()" style="background-image: url({{ url_for('static',filename='sidebar-icons/settings.png') }})"></div>
+            <p>Configurações</p>
+            <hr>
+            <a href="/contato"><div class="sidebar-icon" style="background-image: url({{ url_for('static',filename='sidebar-icons/contact.png') }})"></div></a>
+            <p>Contato</p>
+            <hr>
         </div>
     </div>
 

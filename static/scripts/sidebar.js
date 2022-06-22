@@ -1,7 +1,9 @@
 var shown = false;
 var sidebar = document.getElementsByClassName('sidebar')[0];
+var main_side = document.getElementsByClassName('main-side')[0];
 var options = document.getElementById('options');
-console.log(sidebar);
+
+sidebar.style.height = main_side.scrollHeight;
 
 function options_click(){
     shown = !shown;

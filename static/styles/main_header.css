@@ -42,7 +42,7 @@
     color: #0FA;
 }
 
-#forum:hover {
+#club:hover {
     color: #FA0;
 }
 
@@ -104,6 +104,7 @@
 
 .opt-cross {
     transform: rotate(45deg);
+    margin-left: 25px;
 }
 
 .opt-cross::after, .opt-cross::before {
