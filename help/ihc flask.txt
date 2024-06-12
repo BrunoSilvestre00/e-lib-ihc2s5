@@ -1,12 +1,10 @@
 repositório https://github.com/brunosilvestre00/e-lib-ihc2s5
 
-instalar o python 10.5 e adicionar o path na instalação
-
 criar virtual enviroment
 abrir cmd:
 	python -m venv ihc_venv
 
-	navegar ate a ihc_venv\scripts\actvete.bet
+	navegar ate a ihc_venv\scripts\actvete.bat
 		rodar usando o cmd
 
 	python -m pip install --upgrade pip
@@ -16,7 +14,7 @@ vm esta pronta.
 salvar o projeto e-lib-ihc2s5 na ihc-venv.
 abrir a venv com o vscode
 abrir cmd do vscode 
-rodar ativate.bet sem sair da venv (voltar uma pasta)
+rodar ativate.bat sem sair da venv (voltar uma pasta)
 
 pip install -r requirments.txt
 da para ver na lib do venv o que foi instalado
